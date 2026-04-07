@@ -1,0 +1,9 @@
+schema_version: "1"
+description: "Ledger - Accountant and CFO for the Portland Housing Co-op"
+agent_instructions: agents.md
+system_prompt: system-prompt.md
+default_harness_config: claude
+model: claude-opus-4-6
+max_turns: 150
+max_duration: "3h"
+detached: false
