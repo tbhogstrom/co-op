@@ -1,0 +1,13 @@
+{
+  "autoUpdater": {
+    "disabled": true
+  },
+  "telemetry": {
+    "enabled": false
+  },
+  "permissions": {
+    "allow": ["*"]
+  },
+  "includeCoAuthoredBy": false,
+  "gitAttribution": false
+}
