@@ -1,0 +1,13 @@
+schema_version: "1"
+active_profile: local
+default_template: base
+default_harness_config: claude
+
+runtimes:
+  docker:
+    type: docker
+
+profiles:
+  local:
+    runtime: docker
+    default_harness_config: claude

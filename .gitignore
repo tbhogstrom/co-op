@@ -1,0 +1,16 @@
+# Scion agent runtime state (recreated each run)
+.scion/agents/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
