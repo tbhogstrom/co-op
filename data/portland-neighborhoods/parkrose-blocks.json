@@ -1,0 +1,122 @@
+{
+  "neighborhood": "Parkrose",
+  "analysis_date": "2026-04-07",
+  "methodology": "Sub-zone boundaries based on major arterials, flight path impact zones, and terrain features. Investment grades reflect fix-and-flip viability: entry price vs. ARV spread, buyer demand, days on market, and rehab opportunity density. Grades are relative within Parkrose, not metro-wide. Airport noise zones verified against Port of Portland noise contour maps.",
+  "neighborhood_median_price": 340000,
+  "sub_zones": [
+    {
+      "name": "Sandy Blvd Corridor",
+      "boundaries": "NE Sandy Blvd (central spine), NE 102nd Ave (west) to NE 122nd Ave (east), extending roughly 3 blocks north and south of Sandy",
+      "investment_grade": "A-",
+      "median_price": 355000,
+      "median_renovated_price": 420000,
+      "typical_arv_range": [395000, 440000],
+      "price_trend_1yr_pct": 4.2,
+      "avg_days_on_market": 28,
+      "walkability": 58,
+      "transit_score": 62,
+      "notes": "The most walkable sub-zone in Parkrose, anchored by the Sandy Blvd commercial corridor. Sandy carries TriMet Line 12 bus service and has a mix of small restaurants, convenience retail, and auto-oriented businesses. The Parkrose town center planning effort is focused on the Sandy/102nd to Sandy/112th stretch, with the city exploring streetscape improvements and mixed-use zoning incentives. Blocks south of Sandy (toward NE Shaver and NE Fremont) are quieter residential streets with 1950s-1960s ranches. These blocks are far enough from the PDX flight path that airport noise is minimal. The strongest renovation comps in Parkrose are clustered here — recent flips on NE Shaver and NE Mason in the $410K-$440K range provide good appraisal support.",
+      "best_for": "Best zone for the co-op's first Parkrose deal. Strongest buyer demand, best comps, shortest days on market. Target 3-bed ranches on the south side of Sandy (between NE Shaver and NE Fremont) for best resale. Renovated homes here sell to buyers priced out of Roseway and Cully.",
+      "risks": [
+        "Sandy Blvd traffic noise on fronting lots — focus on blocks 1-3 streets south",
+        "Commercial revitalization is still planning-stage — don't price in improvements that haven't happened",
+        "Auto-oriented commercial character may deter walkability-focused buyers",
+        "Some older commercial properties on Sandy have environmental concerns"
+      ],
+      "rehab_opportunity_density": "Moderate — 3-4 viable properties per quarter. Estate sales and bank-owned properties are primary sources.",
+      "sample_streets": ["NE Sandy Blvd", "NE Shaver St", "NE Mason St", "NE 107th Ave", "NE 109th Ave", "NE 112th Ave"]
+    },
+    {
+      "name": "Parkrose Heights",
+      "boundaries": "NE Fremont St (north) to NE Sandy Blvd (south, roughly), NE 102nd Ave (west) to NE 118th Ave (east) — elevated terrain south of Sandy",
+      "investment_grade": "B+",
+      "median_price": 365000,
+      "median_renovated_price": 435000,
+      "typical_arv_range": [410000, 455000],
+      "price_trend_1yr_pct": 3.9,
+      "avg_days_on_market": 27,
+      "walkability": 45,
+      "transit_score": 48,
+      "notes": "The higher-elevation area south of Sandy Blvd, roughly between NE Fremont and NE Halsey / I-84. This is the quietest, most established residential area in Parkrose. Blocks have mature trees, consistent mid-century housing stock, and are well outside the PDX noise contour. Parkrose High School is located here, along with Parkrose Middle School — making this the default family zone. Housing stock is primarily 1955-1970 ranches and split-levels, slightly larger than the Parkrose average (1,100-1,500 sqft). Entry prices are the highest in Parkrose but so are ARVs. The school proximity is the main draw for family buyers, which is the primary end-market for renovated product in this price range.",
+      "best_for": "Family-oriented flips. Emphasize proximity to schools, quiet streets, and move-in ready condition. Split-levels with 3-4 bedrooms and updated kitchens can push toward $450K. Budget for higher-quality finishes than the volume plays in other Parkrose zones.",
+      "risks": [
+        "Highest entry prices in Parkrose reduce margin on percentage basis",
+        "School ratings (3.8 avg) are below Portland average — some buyers will check GreatSchools and be deterred",
+        "Proximity to I-84 on southern blocks — check noise levels at specific addresses",
+        "Less investor activity means fewer recent renovation comps — may need to use Sandy Blvd zone comps"
+      ],
+      "rehab_opportunity_density": "Low-Moderate — fewer distressed properties due to more stable ownership base. 1-2 viable properties per quarter.",
+      "sample_streets": ["NE 108th Ave", "NE 110th Ave", "NE 114th Ave", "NE Fremont St", "NE Klickitat St", "NE Stanton St"]
+    },
+    {
+      "name": "Central Parkrose / Sacramento Corridor",
+      "boundaries": "NE Sandy Blvd (south) to NE Columbia Blvd / NE Alderwood Rd (north), NE 102nd Ave (west) to NE 115th Ave (east)",
+      "investment_grade": "B",
+      "median_price": 340000,
+      "median_renovated_price": 405000,
+      "typical_arv_range": [380000, 420000],
+      "price_trend_1yr_pct": 3.5,
+      "avg_days_on_market": 30,
+      "walkability": 48,
+      "transit_score": 52,
+      "notes": "The residential core north of Sandy Blvd. NE Sacramento St runs east-west through this zone and is a quiet residential street lined with 1950s ranches. Blocks here are laid out on a standard grid and have consistent housing stock — mostly 3-bed/1-bath ranches in the 1,000-1,200 sqft range on 5,500-6,000 sqft lots. This zone is within the MAX Blue/Red Line catchment — the Parkrose/Sumner Transit Center is accessible from western blocks (15-20 minute walk or short bike ride). Blocks between NE 105th and NE 110th, along Sacramento and Prescott, have the best mix of price, condition, and comp support. Some blocks north of NE Prescott start to get closer to the PDX noise contour — verify noise levels on specific properties above Prescott.",
+      "best_for": "Core Parkrose flip strategy. Classic entry-level product: buy a tired 3/1 ranch at $300K-$340K, invest $55K-$70K in kitchen/bath/flooring/paint rehab, sell at $380K-$420K. Target first-time buyers using FHA loans. Volume opportunity — consistent housing stock means repeatable rehab scope and predictable costs.",
+      "risks": [
+        "Some northern blocks approach PDX noise contour — check flight path maps on any property north of NE Prescott",
+        "Standard ranch stock means competing on price with other investors doing identical rehabs",
+        "FHA buyer pool means appraisal risk — keep ARV expectations conservative",
+        "NE Sacramento and NE Prescott have some scattered rental properties that affect block character"
+      ],
+      "rehab_opportunity_density": "High — most consistent supply of flip-ready distressed properties in Parkrose. 4-6 viable properties typically available.",
+      "sample_streets": ["NE Sacramento St", "NE Prescott St", "NE Skidmore St", "NE 105th Ave", "NE 108th Ave", "NE 110th Ave"]
+    },
+    {
+      "name": "South Parkrose / Airport Fringe",
+      "boundaries": "NE Prescott St (south) to NE Columbia Blvd (north), NE 102nd Ave (west) to NE 122nd Ave (east) — blocks within PDX noise contour",
+      "investment_grade": "C",
+      "median_price": 315000,
+      "median_renovated_price": 375000,
+      "typical_arv_range": [355000, 390000],
+      "price_trend_1yr_pct": 2.8,
+      "avg_days_on_market": 36,
+      "walkability": 35,
+      "transit_score": 48,
+      "notes": "The zone most directly impacted by Portland International Airport operations. Blocks north of NE Prescott and east of NE 112th fall within or near the 65 DNL noise contour mapped by the Port of Portland. Aircraft on approach to Runway 10R pass directly over this area, with significant noise events every 2-5 minutes during peak operations. The Port of Portland has a residential sound insulation program that has treated some homes in this zone — insulated homes are more marketable. Entry prices are the lowest in Parkrose proper, and some buyers genuinely do not mind the noise (or work at the airport). The Parkrose/Sumner Transit Center is on the western edge of this zone, providing good MAX access.",
+      "best_for": "Deep-discount acquisitions only. If you can buy a distressed property under $290K and the home has already been through the Port's sound insulation program, the margin can work. Target airport employees and shift workers who prioritize commute over quiet. Keep rehab budgets very tight ($45K-$55K) and price aggressively under $380K.",
+      "risks": [
+        "Airport noise is a material value detractor — many buyers will not consider these blocks",
+        "Properties NOT in the Port's insulation program need $15K-$25K in sound mitigation to be competitive",
+        "Appraisals may be challenged — noise-impacted comps pull values down",
+        "Aircraft exhaust and particulate exposure concerns may affect long-term demand",
+        "FAA noise contour expansion could further restrict development",
+        "Longest days on market in Parkrose — budget for 40+ days"
+      ],
+      "rehab_opportunity_density": "High — abundant distressed inventory due to low demand. Many long-term owners selling without updates.",
+      "sample_streets": ["NE Prescott St", "NE Skidmore St", "NE 112th Ave", "NE 115th Ave", "NE 118th Ave", "NE Sumner St"]
+    },
+    {
+      "name": "East Parkrose / 122nd Corridor",
+      "boundaries": "NE Sandy Blvd (south) to NE Columbia Blvd (north), NE 118th Ave (west) to NE 148th Ave (east)",
+      "investment_grade": "C-",
+      "median_price": 305000,
+      "median_renovated_price": 365000,
+      "typical_arv_range": [340000, 380000],
+      "price_trend_1yr_pct": 2.2,
+      "avg_days_on_market": 40,
+      "walkability": 32,
+      "transit_score": 40,
+      "notes": "The most affordable and most challenging sub-zone. NE 122nd Ave is a major arterial with heavy traffic, strip malls, and auto-oriented commercial. Blocks east of 122nd transition into the far eastern Portland character — wider lots, inconsistent infrastructure, and a mix of single-family homes with manufactured housing. Some properties east of 130th are on larger parcels (8,000+ sqft) that may have subdivision or ADU potential, but the current market does not support the investment required to develop them. Housing stock is the most varied in Parkrose — 1950s ranches alongside 1970s split-levels and some manufactured homes on permanent foundations. The Gateway Discovery Park area (near 122nd and Sandy) has seen some investment, but momentum is slow.",
+      "best_for": "Not recommended for the co-op's early deals. The margins look good on paper ($305K entry, $365K ARV) but carrying costs eat the spread due to 40+ day average hold times. Revisit after the team has completed 2-3 successful flips and can tolerate longer holds. When ready, focus on blocks between 118th and 125th which have the best comp support in this zone.",
+      "risks": [
+        "Longest days on market in all three Tier 1 neighborhoods",
+        "Manufactured homes and non-standard housing complicate comp analysis",
+        "122nd Ave has safety perception issues — well-documented in local media",
+        "Infrastructure gaps east of 130th — some blocks lack curbs, sidewalks, stormwater",
+        "Thinnest buyer pool — limited to budget-constrained first-time buyers and investors",
+        "Appraisal challenges — lenders may flag area as declining market"
+      ],
+      "rehab_opportunity_density": "High — abundant distressed inventory, but quality of housing stock varies widely. Must inspect carefully for structural issues, unpermitted additions, and manufactured home classification.",
+      "sample_streets": ["NE 122nd Ave", "NE 125th Ave", "NE 130th Ave", "NE Shaver St", "NE Sacramento St", "NE Sandy Blvd"]
+    }
+  ]
+}

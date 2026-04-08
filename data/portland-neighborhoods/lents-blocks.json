@@ -1,0 +1,142 @@
+{
+  "neighborhood": "Lents",
+  "analysis_date": "2026-04-07",
+  "methodology": "Sub-zone boundaries based on natural dividers (major roads, MAX line, parks). Investment grades reflect fix-and-flip viability: entry price vs. ARV spread, buyer demand, days on market, and rehab opportunity density. Grades are relative within Lents, not metro-wide.",
+  "neighborhood_median_price": 365000,
+  "sub_zones": [
+    {
+      "name": "Lents Town Center Core",
+      "boundaries": "SE Foster Rd (north) to SE Woodstock Blvd (south), SE 87th Ave (west) to SE 92nd Ave (east)",
+      "investment_grade": "B+",
+      "median_price": 385000,
+      "median_renovated_price": 445000,
+      "typical_arv_range": [420000, 470000],
+      "price_trend_1yr_pct": 4.8,
+      "avg_days_on_market": 22,
+      "walkability": 72,
+      "transit_score": 78,
+      "notes": "Best amenity access in Lents. Walking distance to MAX Green Line at Lents/SE Foster station. New mixed-use development along Foster corridor bringing restaurants, brewery, and retail. Highest ARVs in the neighborhood but also highest entry prices. Retail buyer competition from young professionals pricing out of Division/Hawthorne areas. City has invested heavily in streetscape improvements on Foster between 82nd and 92nd.",
+      "best_for": "Higher-end flips targeting $420K-$470K ARV. Best comps for renovated product. Suits a quality-over-volume strategy.",
+      "risks": [
+        "Entry prices 5-8% above neighborhood median reduce margin",
+        "Competition from owner-occupant buyers drives up acquisition cost",
+        "Fewer distressed properties available — most deferred-maintenance stock already absorbed",
+        "New construction infill competes with renovated comps"
+      ],
+      "rehab_opportunity_density": "Low — most easy flips already done. Remaining opportunities are tougher projects (foundation issues, fire damage, probate).",
+      "sample_streets": ["SE Foster Rd", "SE Woodstock Blvd", "SE 89th Ave", "SE 90th Ave", "SE 91st Ave", "SE Harold St"]
+    },
+    {
+      "name": "Lents Park Area",
+      "boundaries": "SE Holgate Blvd (north) to SE Foster Rd (south), SE 87th Ave (west) to SE 97th Ave (east)",
+      "investment_grade": "A",
+      "median_price": 355000,
+      "median_renovated_price": 435000,
+      "typical_arv_range": [410000, 460000],
+      "price_trend_1yr_pct": 5.1,
+      "avg_days_on_market": 24,
+      "walkability": 65,
+      "transit_score": 62,
+      "notes": "Best sub-zone for the co-op's strategy. Lents Park (20+ acres) is a genuine neighborhood anchor — playground, baseball fields, community garden. Proximity to the park commands a premium on renovated product, but distressed properties still price at or below neighborhood median. Family buyers are the primary end-market. Housing stock is mostly 1940s-1950s ranches and bungalows in the 1,000-1,300 sqft range — ideal rehab candidates. Several blocks between SE 92nd and SE 96th have deferred-maintenance homes mixed with recently renovated ones, creating strong comp support.",
+      "best_for": "Core flip strategy. Buy deferred-maintenance ranches at $320K-$360K, invest $60K-$80K in rehab, sell at $410K-$460K to families. Strong comp support from recent renovations on adjacent blocks.",
+      "risks": [
+        "Park proximity cuts both ways — some transient activity in park after hours",
+        "Seasonal flooding concern on blocks closest to Johnson Creek (SE 92nd south of Holgate)",
+        "School assignment zone splits — verify which elementary school serves each block"
+      ],
+      "rehab_opportunity_density": "Moderate — 3-5 viable distressed properties typically available at any given time.",
+      "sample_streets": ["SE 92nd Ave", "SE 93rd Ave", "SE 96th Ave", "SE Steele St", "SE Ramona St", "SE Reedway St"]
+    },
+    {
+      "name": "South Lents",
+      "boundaries": "SE Woodstock Blvd (north) to SE Flavel St / city limits (south), SE 82nd Ave (west) to SE 101st Ave (east)",
+      "investment_grade": "B",
+      "median_price": 360000,
+      "median_renovated_price": 425000,
+      "typical_arv_range": [400000, 445000],
+      "price_trend_1yr_pct": 3.8,
+      "avg_days_on_market": 29,
+      "walkability": 52,
+      "transit_score": 48,
+      "notes": "Quieter residential area south of the commercial corridors. More of a suburban feel — wider lots, more yards, less foot traffic. Housing stock skews slightly newer (1950s-1960s) and slightly larger (1,100-1,400 sqft). Woodstock Blvd provides some commercial access but not as developed as Foster. Blocks between SE 82nd and SE 92nd have better infrastructure (sidewalks, streetlights) than blocks further east. Johnson Creek runs through parts of this zone — check FEMA flood maps carefully on any property south of SE Flavel Dr.",
+      "best_for": "Solid mid-range flips. Quieter setting appeals to families and retirees. Slightly longer hold times but consistent ARVs. Good for 3-bed/1.5-bath ranches with garage conversions.",
+      "risks": [
+        "Johnson Creek floodplain affects some parcels — must check FEMA maps",
+        "Longer days on market (29 avg) increases carrying costs",
+        "Less transit access means smaller buyer pool",
+        "Fewer recent comp sales than Town Center — harder to appraise aggressively"
+      ],
+      "rehab_opportunity_density": "Moderate — steady supply of estate sales and long-term owner properties hitting market.",
+      "sample_streets": ["SE 86th Ave", "SE 89th Ave", "SE 92nd Ave", "SE Flavel St", "SE Clatsop St", "SE Tolman St"]
+    },
+    {
+      "name": "North Lents / Powell Corridor",
+      "boundaries": "SE Powell Blvd (north) to SE Holgate Blvd (south), SE 82nd Ave (west) to SE 101st Ave (east)",
+      "investment_grade": "B-",
+      "median_price": 345000,
+      "median_renovated_price": 410000,
+      "typical_arv_range": [385000, 425000],
+      "price_trend_1yr_pct": 2.9,
+      "avg_days_on_market": 31,
+      "walkability": 58,
+      "transit_score": 65,
+      "notes": "Transitional zone between the Powell Blvd commercial/industrial corridor and the Lents residential core. Powell Blvd carries heavy truck traffic and is lined with auto shops, storage facilities, and strip commercial — this suppresses values on blocks immediately fronting Powell. However, blocks 2-3 streets south of Powell (SE Bush St, SE Tibbetts St, SE Holgate) are quiet residential streets that benefit from lower entry prices without the direct noise/traffic impact. The 82nd Ave corridor is undergoing city-led transformation (PBOT's 82nd Avenue Plan) which should lift western blocks long-term.",
+      "best_for": "Value plays for experienced rehabbers. Buy at discount due to Powell proximity, renovate to good standard, sell to buyers who want Lents pricing without caring about the commercial corridor. Focus on blocks south of SE Bush St for best resale.",
+      "risks": [
+        "Powell Blvd traffic noise depresses values on fronting lots — avoid these",
+        "82nd Ave corridor still has perception issues despite city investment",
+        "Some legacy commercial/industrial contamination near 82nd and Powell intersection",
+        "Slower appreciation than southern sub-zones",
+        "Higher rental percentage — fewer owner-occupant comps"
+      ],
+      "rehab_opportunity_density": "High — most distressed inventory in Lents concentrates here due to lower demand.",
+      "sample_streets": ["SE Bush St", "SE Tibbetts St", "SE Holgate Blvd", "SE 86th Ave", "SE 90th Ave", "SE 94th Ave"]
+    },
+    {
+      "name": "East Lents",
+      "boundaries": "SE Powell Blvd (north) to SE Woodstock Blvd (south), SE 101st Ave (west) to SE 111th Ave (east)",
+      "investment_grade": "C+",
+      "median_price": 330000,
+      "median_renovated_price": 395000,
+      "typical_arv_range": [370000, 410000],
+      "price_trend_1yr_pct": 2.5,
+      "avg_days_on_market": 35,
+      "walkability": 38,
+      "transit_score": 35,
+      "notes": "Most affordable sub-zone in Lents proper. Blocks east of SE 102nd Ave have a noticeably different character — fewer sidewalks, larger but rougher lots, more deferred maintenance. Housing stock includes some later builds (1960s-1970s) and a few manufactured homes on permanent foundations. 102nd Ave is a minor commercial strip but not walkable in the way Foster is. This zone is functionally car-dependent. The upside is price: distressed properties regularly come to market in the $280K-$320K range, and a solid rehab can push into the high $300Ks. The challenge is buyer depth — renovated homes here take longer to sell and may require price reductions.",
+      "best_for": "Volume strategy — lower entry, lower ARV, but wider margins on percentage basis. Target first-time buyers priced out of closer-in Portland. Keep rehab budgets tight ($50K-$65K) and price competitively.",
+      "risks": [
+        "Thinner comp support — fewer recent renovated sales to anchor appraisals",
+        "Longer days on market (35 avg) means higher carrying costs",
+        "Infrastructure gaps — some blocks lack sidewalks, curbs, stormwater management",
+        "Perception drag from being 'deep outer SE'",
+        "Some blocks have code enforcement issues on neighboring properties"
+      ],
+      "rehab_opportunity_density": "High — most available distressed inventory per block in the neighborhood.",
+      "sample_streets": ["SE 102nd Ave", "SE 104th Ave", "SE 108th Ave", "SE Harold St", "SE Steele St", "SE Pardee St"]
+    },
+    {
+      "name": "Far East Lents / 111th Corridor",
+      "boundaries": "SE Foster Rd (north/diagonal) to SE Woodstock Blvd (south), SE 108th Ave (west) to SE 111th Ave / neighborhood boundary (east)",
+      "investment_grade": "C",
+      "median_price": 310000,
+      "median_renovated_price": 375000,
+      "typical_arv_range": [350000, 390000],
+      "price_trend_1yr_pct": 2.1,
+      "avg_days_on_market": 38,
+      "walkability": 32,
+      "transit_score": 30,
+      "notes": "The eastern fringe of Lents where it transitions toward the Powellhurst-Gilbert neighborhood. Lowest prices in the Lents boundary. Foster Rd runs diagonally through this zone and provides some commercial access, but the area feels more exurban than urban. Lots tend to be larger (6,000-7,000 sqft) which is an ADU opportunity. Some properties here are on septic rather than sewer — verify utility connections. The 111th Ave corridor has a few convenience stores and services but no real commercial district. This is the highest-risk, highest-potential-margin zone if you can find the right deal and keep rehab costs controlled.",
+      "best_for": "Opportunistic deep-value plays only. Best for properties where land value plus ADU potential justifies the investment. Not recommended for the co-op's first deal — save for later when team has track record.",
+      "risks": [
+        "Some properties on septic systems — sewer connection can cost $15K-$30K",
+        "Weakest comp support in all of Lents",
+        "Longest days on market — budget for 45+ day hold after listing",
+        "Adjacent to Powellhurst-Gilbert which has higher crime and lower values",
+        "Appraisals may come in low — FHA/VA buyers may face issues"
+      ],
+      "rehab_opportunity_density": "Moderate — properties available but quality of housing stock is lower, increasing rehab scope.",
+      "sample_streets": ["SE 109th Ave", "SE 110th Ave", "SE 111th Ave", "SE Foster Rd", "SE Knapp St", "SE Liebe St"]
+    }
+  ]
+}

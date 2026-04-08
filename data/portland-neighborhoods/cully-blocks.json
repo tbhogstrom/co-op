@@ -1,0 +1,120 @@
+{
+  "neighborhood": "Cully",
+  "analysis_date": "2026-04-07",
+  "methodology": "Sub-zone boundaries based on major arterials and infrastructure transitions. Investment grades reflect fix-and-flip viability for the co-op: acquisition price vs. ARV spread, rehab opportunity density, buyer demand strength, and days on market. Grades are relative within Cully, not metro-wide.",
+  "neighborhood_median_price": 385000,
+  "sub_zones": [
+    {
+      "name": "Central Cully / Cully Blvd Corridor",
+      "boundaries": "NE Prescott St (south) to NE Killingsworth St (north), NE 57th Ave (west) to NE 72nd Ave (east)",
+      "investment_grade": "A",
+      "median_price": 375000,
+      "median_renovated_price": 450000,
+      "typical_arv_range": [425000, 475000],
+      "price_trend_1yr_pct": 4.8,
+      "avg_days_on_market": 23,
+      "walkability": 62,
+      "transit_score": 58,
+      "notes": "The heart of Cully and the best sub-zone for the co-op's strategy. Cully Blvd (NE 57th Ave) is the neighborhood's commercial spine with small businesses, restaurants, and the weekly Cully Farmers Market. The Living Cully coalition has driven significant community investment here — new affordable housing, a community center, and streetscape improvements. Housing stock is 1940s-1950s ranches and bungalows on generous lots (5,500-7,000 sqft). Many long-term owners are aging out, creating a steady stream of deferred-maintenance properties hitting the market through estate sales. Recent renovated comps in the $440K-$470K range provide strong appraisal support.",
+      "best_for": "Primary flip target zone. Buy estate sales and deferred-maintenance ranches at $340K-$380K, invest $65K-$85K in rehab, target $425K-$475K ARV. Strong demand from families and first-time buyers who want a neighborhood feel without inner-Portland pricing. Lots support ADU addition for maximum ARV.",
+      "risks": [
+        "Living Cully community land trust reduces some inventory — properties sold to CLT are not available",
+        "Community sensitivity to flipping — need to be perceived as improving housing, not displacing residents",
+        "Some blocks lack sidewalks, which affects walkability perception for buyers relocating from inner neighborhoods",
+        "Cully Blvd commercial is thin — a few closures could impact momentum"
+      ],
+      "rehab_opportunity_density": "Moderate-High — 4-6 viable distressed properties typically on market at any time. Estate sales are the primary source.",
+      "sample_streets": ["NE Cully Blvd", "NE 60th Ave", "NE 62nd Ave", "NE 65th Ave", "NE Wygant St", "NE Emerson St"]
+    },
+    {
+      "name": "West Cully / 42nd Ave Corridor",
+      "boundaries": "NE Prescott St (south) to NE Killingsworth St (north), NE 42nd Ave (west) to NE 57th Ave (east)",
+      "investment_grade": "B+",
+      "median_price": 405000,
+      "median_renovated_price": 470000,
+      "typical_arv_range": [445000, 495000],
+      "price_trend_1yr_pct": 4.5,
+      "avg_days_on_market": 21,
+      "walkability": 68,
+      "transit_score": 72,
+      "notes": "The most connected sub-zone in Cully. NE 42nd Ave has frequent TriMet bus service (Line 75) connecting to Hollywood TC and the MAX. Blocks closest to 42nd benefit from proximity to the Beaumont-Wilshire and Hollywood neighborhoods, which command significantly higher prices ($550K+). This creates a strong value gradient — buyers who want the transit access and proximity to Beaumont shops but at Cully pricing. Housing stock is similar to Central Cully but properties tend to be slightly better maintained due to higher turnover. Entry prices are the highest in Cully but ARVs are also the strongest.",
+      "best_for": "Higher-end Cully flips. Target buyers who are priced out of Beaumont/Hollywood. Renovated 3-bed/2-bath with modern kitchen and bath can push $480K+ near 42nd. Good for the co-op if we find the right acquisition — but fewer distressed properties available here.",
+      "risks": [
+        "Highest entry prices in Cully — tighter margins on percentage basis",
+        "Competition from investors already working the Beaumont/Cully border",
+        "Fewer distressed properties — most deferred-maintenance stock already absorbed by prior investors",
+        "New construction on infill lots creates comp ceiling competition"
+      ],
+      "rehab_opportunity_density": "Low — 1-2 viable properties per quarter. Must move fast when they appear.",
+      "sample_streets": ["NE 42nd Ave", "NE 47th Ave", "NE 50th Ave", "NE 55th Ave", "NE Sumner St", "NE Mason St"]
+    },
+    {
+      "name": "South Cully / Prescott Corridor",
+      "boundaries": "NE Prescott St (south boundary and main corridor) extending to NE Fremont St, NE 42nd Ave (west) to NE 72nd Ave (east)",
+      "investment_grade": "B",
+      "median_price": 395000,
+      "median_renovated_price": 455000,
+      "typical_arv_range": [430000, 475000],
+      "price_trend_1yr_pct": 4.2,
+      "avg_days_on_market": 24,
+      "walkability": 60,
+      "transit_score": 60,
+      "notes": "The southern edge of Cully bordering the more established Roseway and Madison South neighborhoods. Prescott St is a minor commercial corridor with scattered businesses. This zone benefits from the reputation spillover of adjacent neighborhoods while maintaining Cully pricing. Housing stock is among the oldest in Cully — 1930s-1940s bungalows with character features (hardwood floors, built-ins, covered porches) that command premiums when properly restored. Lot sizes are standard (5,000-5,500 sqft). The blocks between NE 52nd and NE 62nd, south of Prescott, are the sweet spot — established trees, relatively quiet, and good renovation comps.",
+      "best_for": "Character bungalow restorations. Buyers in this zone value vintage features — restore rather than modernize. 1930s-1940s bungalows with original hardwood, updated kitchen/bath, and period-appropriate finishes can outperform generic ranch flips on a per-sqft basis.",
+      "risks": [
+        "Older homes (1930s-1940s) may have higher rehab costs — knob-and-tube wiring, galvanized plumbing, potential lead paint",
+        "Proximity to Prescott commercial brings some noise/traffic on fronting lots",
+        "Smaller lot sizes limit ADU potential compared to northern Cully",
+        "Some buyers view this as Roseway, not Cully — comp selection matters for appraisals"
+      ],
+      "rehab_opportunity_density": "Moderate — steady but not abundant. The older housing stock means more major-system rehabs (electrical, plumbing) which thin the investor pool.",
+      "sample_streets": ["NE Prescott St", "NE 52nd Ave", "NE 57th Ave", "NE 60th Ave", "NE Roselawn St", "NE Wistaria Dr"]
+    },
+    {
+      "name": "North Cully / Columbia Corridor",
+      "boundaries": "NE Killingsworth St (south) to NE Columbia Blvd (north), NE 42nd Ave (west) to NE 82nd Ave (east)",
+      "investment_grade": "C+",
+      "median_price": 355000,
+      "median_renovated_price": 420000,
+      "typical_arv_range": [395000, 440000],
+      "price_trend_1yr_pct": 3.4,
+      "avg_days_on_market": 30,
+      "walkability": 40,
+      "transit_score": 42,
+      "notes": "The northern fringe of Cully where residential gives way to the Columbia Corridor industrial zone. NE Columbia Blvd is a heavy truck route serving warehouses, distribution centers, and manufacturing. Blocks immediately south of Columbia have noise and air quality concerns. However, blocks south of NE Cornfoot Rd / NE Alderwood Rd (roughly 3-4 blocks off Columbia) are residential and considerably quieter. This zone has the lowest entry prices in Cully but also the weakest buyer demand. Some environmental justice concerns — the Colwood National Golf Course area has documented soil contamination from prior industrial use. The Portland Expo Center and associated development are within walking distance of western blocks.",
+      "best_for": "Value-oriented flips for budget-conscious first-time buyers. Keep rehab scope moderate ($50K-$65K) and price below $420K to capture FHA/VA buyer demand. Avoid properties within 2 blocks of Columbia Blvd — the traffic noise kills resale value.",
+      "risks": [
+        "Columbia Blvd truck traffic — noise and air quality impact on northern blocks",
+        "Environmental contamination concerns on some parcels — Phase I ESA recommended",
+        "Weakest buyer demand in Cully — longer days on market",
+        "Limited commercial amenities — car-dependent",
+        "Industrial land use adjacency creates uncertain long-term zoning outcomes"
+      ],
+      "rehab_opportunity_density": "High — most distressed inventory in Cully concentrates here. Lower demand means less competition for acquisitions.",
+      "sample_streets": ["NE 60th Ave", "NE 65th Ave", "NE 72nd Ave", "NE Alderwood Rd", "NE Simpson St", "NE Killingsworth St"]
+    },
+    {
+      "name": "East Cully / 82nd Ave Edge",
+      "boundaries": "NE Prescott St (south) to NE Columbia Blvd (north), NE 72nd Ave (west) to NE 82nd Ave (east)",
+      "investment_grade": "C",
+      "median_price": 350000,
+      "median_renovated_price": 410000,
+      "typical_arv_range": [385000, 425000],
+      "price_trend_1yr_pct": 3.0,
+      "avg_days_on_market": 32,
+      "walkability": 45,
+      "transit_score": 52,
+      "notes": "The eastern edge of Cully along the 82nd Ave corridor. NE 82nd Ave is Portland's busiest non-freeway arterial and carries significant stigma despite recent city investment (PBOT transferred 82nd to city jurisdiction from ODOT in 2022). Blocks fronting 82nd have traffic noise and commercial adjacency issues. However, blocks west of 77th Ave are residential and benefit from proximity to 82nd Ave bus service (Line 72, one of TriMet's highest-frequency routes) without the direct noise impact. This zone has a more rural feel than central Cully — some blocks lack curbs and sidewalks, lots are larger (6,000-7,000 sqft), and there are scattered vacant lots. The larger lots are the main draw for investors — ADU potential is strong.",
+      "best_for": "ADU-addition strategy. Buy a deferred-maintenance ranch on a large lot, rehab the main house and add a permitted ADU. Combined value of house + ADU can reach $450K-$500K even in this sub-zone. Requires more capital and longer timeline but produces the best total return in Cully.",
+      "risks": [
+        "82nd Ave perception — buyers may view this as the 'wrong side' of Cully",
+        "Infrastructure gaps — some blocks lack sidewalks, curbs, and stormwater management",
+        "Higher rental percentage reduces owner-occupant comp base",
+        "ADU strategy requires more upfront capital ($90K-$120K for house rehab + ADU construction)",
+        "Zoning changes on 82nd corridor may introduce multi-family competition"
+      ],
+      "rehab_opportunity_density": "Moderate-High — good supply of distressed properties, especially along 72nd to 77th Ave blocks.",
+      "sample_streets": ["NE 72nd Ave", "NE 75th Ave", "NE 77th Ave", "NE 80th Ave", "NE Shaver St", "NE Clackamas St"]
+    }
+  ]
+}
