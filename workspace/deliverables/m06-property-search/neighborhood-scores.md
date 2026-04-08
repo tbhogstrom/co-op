@@ -1,8 +1,8 @@
 # Portland Neighborhood Scoring — Preliminary Analysis
 
 **Prepared by:** Reeves, Real Estate Analyst
-**Date:** 2026-04-07
-**Status:** PRELIMINARY — Full scoring pending deal-scorer tool completion
+**Date:** 2026-04-08
+**Status:** UPDATED — Reflects M1 tier decisions and quantitative tool scoring
 
 ---
 
@@ -207,15 +207,17 @@ Neighborhoods are scored on a 0-100 scale using nine weighted criteria aligned w
 
 ## Summary Rankings
 
-| Rank | Neighborhood | Score | Tier | Entry Price | Est. Margin | Recommendation |
-|------|-------------|-------|------|-------------|-------------|----------------|
-| 1 | **Lents** | 78 | Primary | $365K median | 28-35% | **PURSUE ACTIVELY** |
-| 2 | **Cully** | 73 | Primary | $385K median | 25-32% | **PURSUE ACTIVELY** |
-| 3 | **Parkrose** | 71 | Primary | $340K median | 30-38% | **PURSUE SELECTIVELY** |
-| 4 | **Montavilla** | 67 | Secondary | $400K median | 22-28% | **OPPORTUNISTIC** |
-| 5 | **St. Johns** | 64 | Secondary | $410K median | 20-26% | **OPPORTUNISTIC** |
-| 6 | **Foster-Powell** | 55 | Watch | $435K median | 15-22% | **WATCH ONLY** |
-| 7 | **Woodstock** | 48 | Watch | $465K median | 10-18% | **PASS** |
+| Rank | Neighborhood | Score | M1 Tier | Entry Price | 65% Max (at $75K rehab) | Recommendation |
+|------|-------------|-------|---------|-------------|------------------------|----------------|
+| 1 | **Lents** | 78.4 | **Tier 1** | $365K median | $185K | **ACTIVE SOURCING** |
+| 2 | **Cully** | 73.6 | **Tier 1** | $385K median | $198K | **ACTIVE SOURCING** |
+| 3 | **Parkrose** | 73.2 | **Tier 1** | $340K median | $178K | **ACTIVE SOURCING** |
+| 4 | **Montavilla** | 76.8 | Tier 2 | $400K median | $211K | **OPPORTUNISTIC** |
+| 5 | **St. Johns** | 72.4 | Tier 2 | $410K median | $221K | **OPPORTUNISTIC** |
+| 6 | **Foster-Powell** | 72.0 | ~~Removed~~ | $435K median | — | **REMOVED (M1)** |
+| 7 | **Woodstock** | 62.2 | ~~Removed~~ | $465K median | — | **REMOVED (M1)** |
+
+*Note: Tool scores differ slightly from preliminary hand-scored values. Foster-Powell and Woodstock score higher in the tool than hand-scored because the tool captures walkability and development pipeline more aggressively, but Maven correctly identified that their entry prices make the 65% rule nearly impossible to meet. Removed per M1 decision.*
 
 ---
 
