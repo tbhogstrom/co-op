@@ -1,0 +1,89 @@
+{
+  "project_name": "123 SE Foster Rd (Example)",
+  "gross_profit": 30700,
+  "is_loss": false,
+  "allocation": {
+    "to_reserves": 6140.0,
+    "to_overhead": 3070.0,
+    "capital_pool": 9210.0,
+    "labor_pool": 12280.0
+  },
+  "totals": {
+    "total_capital": 120000,
+    "total_weighted_hours": 2315.0
+  },
+  "distributions": [
+    {
+      "member": "Maven",
+      "capital_pct": 0.4167,
+      "capital_share": 3837.5,
+      "labor_pct": 0.0994,
+      "labor_share": 1220.04,
+      "gross_distribution": 5057.54,
+      "advances_deducted": 0,
+      "net_distribution": 5057.54,
+      "total_hours": 200,
+      "weighted_hours": 230.0
+    },
+    {
+      "member": "Birch",
+      "capital_pct": 0.125,
+      "capital_share": 1151.25,
+      "labor_pct": 0.2592,
+      "labor_share": 3182.72,
+      "gross_distribution": 4333.97,
+      "advances_deducted": 1200,
+      "net_distribution": 3133.97,
+      "total_hours": 500,
+      "weighted_hours": 600.0
+    },
+    {
+      "member": "Slate",
+      "capital_pct": 0.0833,
+      "capital_share": 767.5,
+      "labor_pct": 0.2073,
+      "labor_share": 2546.18,
+      "gross_distribution": 3313.68,
+      "advances_deducted": 800,
+      "net_distribution": 2513.68,
+      "total_hours": 400,
+      "weighted_hours": 480.0
+    },
+    {
+      "member": "Copper",
+      "capital_pct": 0.2083,
+      "capital_share": 1918.75,
+      "labor_pct": 0.1965,
+      "labor_share": 2413.56,
+      "gross_distribution": 4332.31,
+      "advances_deducted": 1000,
+      "net_distribution": 3332.31,
+      "total_hours": 350,
+      "weighted_hours": 455.0
+    },
+    {
+      "member": "Member E",
+      "capital_pct": 0.125,
+      "capital_share": 1151.25,
+      "labor_pct": 0.1296,
+      "labor_share": 1591.36,
+      "gross_distribution": 2742.61,
+      "advances_deducted": 500,
+      "net_distribution": 2242.61,
+      "total_hours": 300,
+      "weighted_hours": 300.0
+    },
+    {
+      "member": "Member F",
+      "capital_pct": 0.0417,
+      "capital_share": 383.75,
+      "labor_pct": 0.108,
+      "labor_share": 1326.13,
+      "gross_distribution": 1709.88,
+      "advances_deducted": 0,
+      "net_distribution": 1709.88,
+      "total_hours": 250,
+      "weighted_hours": 250.0
+    }
+  ]
+}
