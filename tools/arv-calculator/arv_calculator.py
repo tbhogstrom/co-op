@@ -120,7 +120,7 @@ class ARVResult:
     confidence_level: str
     confidence_range: dict[str, float]
     rehab_cost: Optional[float]
-    estimated_profit_at_70_rule: Optional[float]
+    estimated_profit_at_65_rule: Optional[float]
     notes: list[str]
 
 
@@ -472,14 +472,14 @@ def calculate_arv(data: dict[str, Any]) -> dict[str, Any]:
     confidence = _assess_confidence(methods, len(comps))
     crange = _confidence_range(final_arv, confidence)
 
-    # 70 % rule profit estimate.
-    profit_70 = None
+    # 65% rule profit estimate (M1 decision: purchase ≤65% ARV).
+    profit_65 = None
     if rehab_cost > 0 and final_arv > 0:
-        max_offer = final_arv * 0.70 - rehab_cost
-        profit_70 = _round_price(max_offer)
+        max_offer = final_arv * 0.65 - rehab_cost
+        profit_65 = _round_price(max_offer)
         notes.append(
-            f"70% rule max offer: ${profit_70:,} "
-            f"(ARV ${_round_price(final_arv):,} x 0.70 - "
+            f"65% rule max offer: ${profit_65:,} "
+            f"(ARV ${_round_price(final_arv):,} x 0.65 - "
             f"rehab ${rehab_cost:,.0f})"
         )
 
@@ -496,7 +496,7 @@ def calculate_arv(data: dict[str, Any]) -> dict[str, Any]:
         confidence_level=confidence,
         confidence_range=crange,
         rehab_cost=rehab_cost if rehab_cost > 0 else None,
-        estimated_profit_at_70_rule=profit_70,
+        estimated_profit_at_65_rule=profit_65,
         notes=notes,
     )
 
