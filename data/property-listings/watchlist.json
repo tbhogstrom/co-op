@@ -1,0 +1,46 @@
+[
+  {
+    "address": "9156 SE Harold St",
+    "neighborhood": "Lents",
+    "quadrant": "SE",
+    "zip": "97266",
+    "distress_signal": "Tax delinquent 3 years, $9,240 owed to Multnomah County",
+    "estimated_value_range": [180000, 220000],
+    "notes": "Small 2-bed ranch, 840 sqft on 4,800 sqft lot. Built 1951. Property appears occupied but poorly maintained. Roof has visible tarp. If tax foreclosure proceeds, could be available at county auction Q3 2026. Neighborhood median for comparable is ~$310K after rehab.",
+    "source": "Multnomah County public records",
+    "last_updated": "2026-04-07"
+  },
+  {
+    "address": "5503 NE 58th Ave",
+    "neighborhood": "Cully",
+    "quadrant": "NE",
+    "zip": "97218",
+    "distress_signal": "Pre-foreclosure notice filed February 2026",
+    "estimated_value_range": [230000, 270000],
+    "notes": "3-bed/1-bath bungalow, 1,060 sqft. Built 1954. Notice of default recorded 2026-02-14, trustee sale date not yet scheduled. Owner may be open to short sale or direct negotiation. Property appears structurally sound from exterior — moderate deferred maintenance. Corner lot with good ADU potential.",
+    "source": "Multnomah County public records",
+    "last_updated": "2026-04-07"
+  },
+  {
+    "address": "11423 NE Sandy Blvd",
+    "neighborhood": "Parkrose",
+    "quadrant": "NE",
+    "zip": "97220",
+    "distress_signal": "Multiple City of Portland code violations since 2024",
+    "estimated_value_range": [195000, 235000],
+    "notes": "2-bed/1-bath, 900 sqft. Built 1949. Accumulated code violations for exterior maintenance, inoperable vehicle, and overgrown vegetation. Owner is elderly and may be interested in selling. Property sits on oversized 8,100 sqft lot zoned R5 — potential for lot division or ADU. Violations suggest deferred maintenance but structural condition unknown.",
+    "source": "City of Portland code enforcement records, Multnomah County assessor",
+    "last_updated": "2026-04-07"
+  },
+  {
+    "address": "7738 N Jersey St",
+    "neighborhood": "St. Johns",
+    "quadrant": "N",
+    "zip": "97203",
+    "distress_signal": "Tax delinquent 2 years, vacant per neighbor reports",
+    "estimated_value_range": [240000, 290000],
+    "notes": "3-bed/1-bath, 1,100 sqft. Built 1941. Property appears vacant — mail piling up, lawn unmaintained. Tax delinquent since 2024, $5,680 owed. County records show owner lives out of state. St. Johns location commands higher ARV (~$420K-$460K range after full rehab). Worth monitoring for potential direct outreach to owner.",
+    "source": "Multnomah County public records, USPS vacancy indicator",
+    "last_updated": "2026-04-07"
+  }
+]

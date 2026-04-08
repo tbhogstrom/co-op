@@ -1,0 +1,68 @@
+{
+  "name": "Portland Metro Summary",
+  "description": "Metro-wide Portland housing market statistics for baseline comparison against target neighborhoods",
+  "geography": "Portland city limits, Multnomah County primary, with reference to tri-county metro (Multnomah, Washington, Clackamas)",
+  "metro_market_data": {
+    "median_home_price": 485000,
+    "median_price_per_sqft": 320,
+    "avg_days_on_market": 22,
+    "months_of_inventory": 1.8,
+    "price_change_1yr_pct": 3.5,
+    "price_change_3yr_pct": 13.2,
+    "total_active_listings": 3800,
+    "new_listings_per_month": 1850,
+    "closed_sales_per_month": 2100,
+    "list_to_sale_ratio_pct": 99.2,
+    "pct_selling_above_asking": 38
+  },
+  "distressed_market": {
+    "distressed_listing_pct_metro": 4.5,
+    "foreclosure_rate_pct": 0.7,
+    "pre_foreclosure_count": 420,
+    "bank_owned_reo_count": 185,
+    "short_sale_count": 65,
+    "distressed_hotspots": [
+      "Parkrose (10.2%)",
+      "Lents (8.5%)",
+      "Cully (7.2%)",
+      "Montavilla (6.3%)"
+    ],
+    "distressed_discount_avg_pct": 18.5
+  },
+  "financing_environment": {
+    "avg_30yr_fixed_rate": 6.45,
+    "avg_15yr_fixed_rate": 5.80,
+    "hard_money_rate_range": [10.5, 13.0],
+    "hard_money_points_range": [2, 4],
+    "fha_limit_multnomah": 644000,
+    "conforming_limit": 766550,
+    "rate_trend": "Rates stabilized in low-to-mid 6% range after 2025 cuts. Market expects modest further easing in late 2026.",
+    "lending_note": "Conventional lending remains accessible. Hard money readily available for fix-and-flip. Some tightening on investment property loans — expect 25% minimum down for non-owner-occupied."
+  },
+  "market_conditions": {
+    "overall_trend": "Moderate seller's market with balanced conditions emerging in outer neighborhoods",
+    "buyer_demand": "Strong for move-in ready under $500K. First-time buyers active in $300K-$400K range.",
+    "investor_activity": "Moderate — institutional investors less active than 2022 peak, local flippers and small investors filling gap",
+    "new_construction_impact": "New construction permits stabilizing after 2024 slowdown. ADU permits remain strong statewide.",
+    "seasonal_note": "Spring 2026 market showing typical seasonal uptick. Expect peak activity May-July.",
+    "rent_vs_buy": "Renting still cheaper monthly in most neighborhoods, but price appreciation favors ownership for 3+ year hold."
+  },
+  "target_neighborhood_comparison": {
+    "note": "Our 7 target neighborhoods are all below metro median, which is the point — we are targeting undervalued areas with upside.",
+    "price_range": "$340K (Parkrose) to $465K (Woodstock) vs $485K metro median",
+    "avg_discount_to_metro_pct": 17.5,
+    "avg_appreciation_premium": "Target neighborhoods averaging 3.9% YoY vs 3.5% metro — outperforming",
+    "highest_distressed_rate": "Parkrose at 10.2% vs 4.5% metro average",
+    "fastest_market": "Woodstock at 16 DOM vs 22 metro average",
+    "slowest_market": "Parkrose at 32 DOM vs 22 metro average"
+  },
+  "data_sources": [
+    "Multnomah County Assessor (public records)",
+    "PortlandMaps.com",
+    "RMLS (Regional Multiple Listing Service) — synthetic estimates based on public reporting",
+    "Oregon Association of Realtors market reports",
+    "Freddie Mac Primary Mortgage Market Survey",
+    "Synthetic data based on Portland market knowledge"
+  ],
+  "last_updated": "2026-04-07"
+}
