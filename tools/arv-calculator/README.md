@@ -107,7 +107,7 @@ See `example_output.json` for full output from a Lents 1952 ranch (1050 sqft, 3B
 - **Improvement ARV**: $331,250 ($245K as-is + $75K rehab at 1.15x multiplier)
 - **Final Weighted ARV**: $359,500
 - **Confidence**: High (range: $341,500 - $377,500)
-- **70% Rule Max Offer**: $177,000
+- **65% Rule Max Offer**: $158,675 (M1 decision: purchase ≤65% ARV)
 
 ## Integration
 

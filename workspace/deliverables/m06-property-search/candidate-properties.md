@@ -1,8 +1,8 @@
 # Candidate Properties — Preliminary Identification
 
 **Prepared by:** Reeves, Real Estate Analyst
-**Date:** 2026-04-07
-**Status:** PRELIMINARY — Full analysis pending M2/M3 completion and tool buildout
+**Date:** 2026-04-08
+**Status:** UPDATED — Reflects M1 deal standards (65% rule, 15% ROI, 25% rehab cap)
 
 ---
 
@@ -18,8 +18,10 @@ Properties were screened against the co-op's target profile:
 | Beds/Baths | 2-3 BR / 1+ BA |
 | Square Footage | 800 - 1,500 sqft |
 | Condition | Poor to Fair (value-add opportunity) |
-| 70% Rule | Max purchase = (ARV × 0.70) - Est. Rehab Cost |
-| Estimated Margin | >= 25% gross |
+| **65% Rule (M1)** | Max purchase = (ARV × 0.65) - Est. Rehab Cost |
+| **ROI Threshold (M1)** | ≥ 15% projected ROI |
+| **Rehab Cap (M1)** | Rehab cost ≤ 25% of ARV |
+| **Hold Period (M1)** | ≤ 6 months |
 
 **Data Note:** Property listings below are synthetic, modeled on real Portland market conditions, pricing, and neighborhood characteristics. They represent the *type* of deals we'd be evaluating. When M6 formally activates, we'll pull live listings from public sources and synthetic MLS data.
 
@@ -49,10 +51,10 @@ Properties were screened against the co-op's target profile:
 | Purchase Price (est.) | $235,000 (negotiate down from $245K) | Medium |
 | Estimated Rehab | $65,000 - $85,000 | Low (needs Harlan) |
 | ARV (preliminary) | $370,000 - $410,000 | Medium |
-| 70% Rule Max Purchase | $400K × 0.70 - $75K = $205,000 | — |
+| 65% Rule Max Purchase | $400K × 0.65 - $75K = $185,000 | — |
 | Gross Margin (mid-case) | ~$85,000 (26%) | Medium |
 
-**Assessment:** At $245K list, this is **above** the 70% rule threshold ($205K). We'd need to negotiate to $210-$220K to make this work, which is realistic for an REO that's been sitting 45 days. The bank is likely motivated. The property is bread-and-butter: 1950s ranch, cosmetic + systems, no structural issues. This is the kind of deal our team is built for.
+**Assessment:** At $245K list, this is **well above** the 65% rule threshold ($185K). We'd need to negotiate to $185-$195K — a 20-25% discount from list. That's aggressive but not impossible for an REO sitting 45+ days. The bank may counteroffer around $210K, which still doesn't work under M1 standards. This deal only works at a steep discount or if Harlan scopes rehab below $65K. Worth monitoring but not a slam-dunk.
 
 **Risk Flags:**
 - Federal Pacific electrical panel — replacement non-negotiable ($4K-$6K)
@@ -85,10 +87,10 @@ Properties were screened against the co-op's target profile:
 | Purchase Price (est.) | $260,000 | Medium-High |
 | Estimated Rehab | $45,000 - $60,000 | Medium (lighter scope) |
 | ARV (preliminary) | $395,000 - $430,000 | Medium |
-| 70% Rule Max Purchase | $410K × 0.70 - $52K = $235,000 | — |
+| 65% Rule Max Purchase | $410K × 0.65 - $52K = $214,500 | — |
 | Gross Margin (mid-case) | ~$100,000 (28%) | Medium |
 
-**Assessment:** This is a **strong candidate**. Estate sales are our favorite listing type: motivated heirs, clean title, no occupant issues. The property is in better shape than most — roof and electrical already done, which dramatically reduces rehab risk. The scope is mostly cosmetic (kitchen, bath, finishes), which is fast and predictable. At $268K list, we're above the 70% threshold ($235K), but estate sales are often negotiable. A $245-$255K offer is realistic.
+**Assessment:** This remains the **strongest candidate**. Estate sales are our favorite listing type: motivated heirs, clean title, no occupant issues. Roof and electrical already done dramatically reduces rehab risk — scope is mostly cosmetic (kitchen, bath, finishes), fast and predictable. At $268K list, we're above the 65% threshold ($214.5K). We'd need to negotiate to ~$215-$225K. Estate sales with out-of-state heirs are often negotiable at 15-20% below list. A $220K offer is aggressive but defensible. The lighter rehab scope ($52K) means rehab/ARV = 12.7% — well under the 25% cap.
 
 **Risk Flags:**
 - 1948 construction — verify no asbestos in siding/insulation
@@ -121,10 +123,10 @@ Properties were screened against the co-op's target profile:
 | Purchase Price (est.) | $195,000 (negotiate from $215K) | Medium |
 | Estimated Rehab | $80,000 - $110,000 | Low (heavy scope) |
 | ARV (preliminary) | $340,000 - $370,000 | Medium |
-| 70% Rule Max Purchase | $355K × 0.70 - $95K = $153,500 | — |
+| 65% Rule Max Purchase | $355K × 0.65 - $95K = $135,750 | — |
 | Gross Margin (mid-case) | ~$55,000 (20%) | Low |
 
-**Assessment:** This one is **marginal**. The purchase price would need to come down significantly ($155-$175K range) to meet the 70% rule, and the rehab scope is heavy — knob-and-tube rewire, galvanized repipe, roof, mold remediation. That's $80K+ before you touch cosmetics. The 2BR/1BA layout also caps the ARV compared to 3BR properties. The 68 days on market suggests other investors have passed. That said, at the right price, the margins could work, and the craftsman details add value post-renovation.
+**Assessment:** Under M1's 65% rule, this is a **NO-GO at current pricing**. The max purchase is $135,750 — nearly $80K below the $215K list. Even at $195K (the low end of my original estimate), this doesn't come close. Additionally, rehab at $95K on a $355K ARV = 26.7%, which **violates the 25% rehab cap**. This deal only works if: (a) purchase drops below $140K, AND (b) Harlan can scope rehab under $88K. Both are unlikely. The 2BR layout and heavy systems work make this a pass. Recommend removing from candidate list.
 
 **Risk Flags:**
 - Mold remediation — unknown extent, could be $5K or $25K
@@ -133,7 +135,7 @@ Properties were screened against the co-op's target profile:
 - 2BR limits buyer pool vs 3BR
 - Foundation settling — needs structural engineer assessment
 
-**Preliminary Score:** 58/100 — **MARGINAL — revisit only at sub-$175K**
+**Preliminary Score:** 42/100 — **NO-GO — fails 65% rule AND 25% rehab cap**
 
 ---
 
@@ -159,10 +161,10 @@ Properties were screened against the co-op's target profile:
 | Purchase Price (est.) | $218,000 (motivated seller) | Medium-High |
 | Estimated Rehab | $55,000 - $75,000 | Medium |
 | ARV (preliminary) | $360,000 - $395,000 | Medium |
-| 70% Rule Max Purchase | $375K × 0.70 - $65K = $197,500 | — |
+| 65% Rule Max Purchase | $375K × 0.65 - $65K = $178,750 | — |
 | Gross Margin (mid-case) | ~$80,000 (27%) | Medium |
 
-**Assessment:** **Interesting deal.** The 3BR/1.5BA layout and larger lot are advantages over many competing listings. The pre-foreclosure status means a motivated seller and potential for below-list-price acquisition. The rehab scope is moderate — mostly cosmetic plus windows and partial plumbing. The R7 zoning with 6,200 sqft lot means an ADU could be built in the future, adding significant value (though that's beyond our current scope). At $218K, we're above the 70% rule ($197.5K), but a $200-$210K offer is plausible for a pre-foreclosure.
+**Assessment:** **Best Parkrose candidate.** The 3BR/1.5BA layout and larger lot (6,200 sqft in R7 = ADU potential) are strong advantages. Under the 65% rule, max purchase is $178,750. At $228K list, we need a ~$180K offer — 21% below list. Pre-foreclosure sellers facing auction are often this motivated, especially if we can close fast (14-21 days with hard money). Rehab at $65K / $375K ARV = 17.3% — under the 25% cap. This deal pencils IF we can get the price down. Worth pursuing aggressively.
 
 **Risk Flags:**
 - Pre-foreclosure process can be unpredictable — could go to auction before we close
@@ -196,10 +198,10 @@ Properties were screened against the co-op's target profile:
 | Purchase Price (est.) | $285,000 | Medium |
 | Estimated Rehab | $35,000 - $50,000 | Medium-High (known scope) |
 | ARV (preliminary) | $420,000 - $460,000 | Medium-High |
-| 70% Rule Max Purchase | $440K × 0.70 - $42K = $266,000 | — |
+| 65% Rule Max Purchase | $440K × 0.65 - $42K = $244,000 | — |
 | Gross Margin (mid-case) | ~$93,000 (25%) | Medium |
 
-**Assessment:** **Opportunistic buy.** A half-finished flip is a gift — the previous investor has already done the expensive, risky work (electrical, plumbing, roof verification) and we'd be finishing the cosmetic scope. Kitchen install, bath completion, flooring, and paint is fast, predictable work that Harlan's crew can knock out in 4-6 weeks. The Montavilla location near Stark Street's commercial district supports a strong ARV. At $299K list, we're above the 70% rule ($266K), but the seller is likely motivated (burned investors want out) and $275-$285K is achievable.
+**Assessment:** **Tight under M1 standards.** Under the 65% rule, max purchase is $244,000. At $299K list, that's an 18% discount needed. Burned-investor sellers can be motivated, but a $244K offer on a $299K list is aggressive. The upside: rehab at $42K / $440K ARV = 9.5% — well under the 25% cap. The hold period would be short (4-6 weeks cosmetic rehab). If we can get this at $244K or below, the ROI is strong. At $285K, it fails. Montavilla is Tier 2, so this is opportunistic only — don't stretch.
 
 **Risk Flags:**
 - "Half-finished" by an unknown contractor — need to verify quality of work already done
@@ -211,15 +213,17 @@ Properties were screened against the co-op's target profile:
 
 ---
 
-## Summary Table
+## Summary Table (Updated for M1 65% Rule)
 
-| Rank | Address | Neighborhood | List Price | Est. Purchase | Est. Rehab | Est. ARV | Est. Margin | Score | Status |
-|------|---------|-------------|-----------|--------------|-----------|---------|-------------|-------|--------|
-| 1 | 6847 NE Killingsworth | Cully | $268K | $250K | $52K | $410K | 28% | 76 | **Strong** |
-| 2 | 4523 SE 92nd Ave | Lents | $245K | $215K | $75K | $390K | 26% | 72 | **Pursue** |
-| 3 | 3312 NE 112th Ave | Parkrose | $228K | $210K | $65K | $375K | 27% | 70 | **Pursue** |
-| 4 | 8156 SE Yamhill St | Montavilla | $299K | $285K | $42K | $440K | 25% | 68 | **Pursue** |
-| 5 | 10234 SE Harold St | Lents | $215K | $175K | $95K | $355K | 20% | 58 | **Marginal** |
+| Rank | Address | Neighborhood | List | 65% Max | Rehab | ARV | Rehab/ARV | Score | Status |
+|------|---------|-------------|------|---------|-------|-----|-----------|-------|--------|
+| 1 | 6847 NE Killingsworth | Cully | $268K | $214.5K | $52K | $410K | 12.7% | 76 | **Pursue** |
+| 2 | 3312 NE 112th Ave | Parkrose | $228K | $178.8K | $65K | $375K | 17.3% | 70 | **Pursue** |
+| 3 | 4523 SE 92nd Ave | Lents | $245K | $185K | $75K | $390K | 19.2% | 72 | **Conditional** |
+| 4 | 8156 SE Yamhill St | Montavilla | $299K | $244K | $42K | $440K | 9.5% | 68 | **Conditional** |
+| 5 | 10234 SE Harold St | Lents | $215K | $135.8K | $95K | $355K | 26.7% | 42 | **NO-GO** |
+
+**Key change from preliminary:** The 65% rule (vs. previous 70%) tightens max purchase prices by $15-$22K per deal. Candidate 5 now fails both the 65% rule AND the 25% rehab cap. Candidates 1 and 2 are the most viable; 3 and 4 are conditional on significant negotiation.
 
 ---
 
@@ -238,23 +242,22 @@ These properties are not yet listed but show distress signals worth monitoring:
 
 ## Next Steps
 
-1. **When M2/M3 complete:**
-   - Confirm capitalization target → sets maximum purchase price
-   - Confirm legal entity → determines title holding and financing structure
-2. **Run tools:**
-   - Full comp analysis on each candidate through comp-analyzer
-   - ARV calculation with confidence ranges through arv-calculator
-   - Quantitative deal scoring through deal-scorer
-3. **Harlan coordination:**
-   - Request rehab estimates for top 3 candidates
-   - Need: scope of work, material costs, labor hours, timeline
-4. **Statton coordination:**
-   - Preliminary title search on Candidates 1-4
-   - Tax lien status on watchlist properties
-5. **Ledger coordination:**
-   - Share preliminary financials for capitalization modeling
-   - Determine holding cost assumptions (insurance, utilities, property tax, financing cost)
+**M1 COMPLETE** — capitalization ($200K) and entity (Cooperative LLC) confirmed.
+
+1. **Awaiting M2 (Statton) and M3 (Ledger):**
+   - M2: Articles of Organization filed → enables title holding
+   - M3: Capital accounts set up → enables earnest money and hard money applications
+2. **When M6 activates:**
+   - Run full comp analysis on Candidates 1 and 2 through pipeline
+   - Get Harlan's rehab estimates — need scope of work, materials, labor, timeline
+   - Have Statton run preliminary title search on top candidates + watchlist
+   - Coordinate with Ledger on per-deal cash flow projections
+3. **Ongoing monitoring:**
+   - Track watchlist properties for listing activity or auction dates
+   - Scan for new distressed listings in Tier 1 neighborhoods weekly
+   - Update neighborhood data as new sales close
+4. **Deal analysis template ready** — every property will be run through the standardized template before go/no-go
 
 ---
 
-*All properties are synthetic listings based on real Portland market conditions. Financials are preliminary estimates with low-to-medium confidence. Full analysis pending tool completion and Harlan's rehab estimates.*
+*All properties are synthetic listings based on real Portland market conditions and M1 deal standards (65% rule, 15% ROI, 25% rehab cap, 6mo hold). Financials are preliminary estimates. Full analysis pending M6 activation and Harlan's rehab estimates.*

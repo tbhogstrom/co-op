@@ -27,6 +27,38 @@ DEAL_THRESHOLD: float = 65.0
 RETURN_THRESHOLD: float = 15.0
 
 # ---------------------------------------------------------------------------
+# M1 Deal Standards (from Maven's M1 decisions, 2026-04-08)
+# ---------------------------------------------------------------------------
+
+# Maximum purchase price as percentage of ARV. Deals above this are rejected.
+MAX_PURCHASE_PCT_ARV: float = 0.65  # purchase ≤ 65% ARV
+
+# Maximum rehab cost as percentage of ARV. Deals above this are too risky.
+MAX_REHAB_PCT_ARV: float = 0.25  # rehab ≤ 25% ARV
+
+# Maximum hold period in months. Deals requiring longer holds are rejected.
+MAX_HOLD_MONTHS: int = 6
+
+# Hard money loan parameters (per Ledger's capitalization model)
+HARD_MONEY_LTV: float = 0.85  # 85% LTV
+HARD_MONEY_RATE: float = 0.11  # 11% annual interest
+HARD_MONEY_POINTS: float = 0.025  # 2.5 points origination
+HARD_MONEY_REHAB_DRAW_PCT: float = 0.70  # lender funds 70% of rehab
+
+# Monthly carrying costs (non-interest)
+MONTHLY_CARRY_NON_INTEREST: float = 1412.0  # property tax + insurance + utilities + misc
+
+# Transaction costs
+BUYER_CLOSING_PCT: float = 0.04  # ~4% of purchase price
+SELLER_CLOSING_PCT: float = 0.07  # ~7% of sale price (6% commissions + 1% closing)
+
+# Profit split (for member return projections)
+RESERVE_PCT: float = 0.20  # 20% to reserves
+OVERHEAD_PCT: float = 0.10  # 10% to overhead recovery
+CAPITAL_SHARE_PCT: float = 0.30  # 30% of gross to capital contributors
+LABOR_SHARE_PCT: float = 0.40  # 40% of gross to labor contributors
+
+# ---------------------------------------------------------------------------
 # Neighborhood Scoring Rubric
 # ---------------------------------------------------------------------------
 

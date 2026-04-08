@@ -1,8 +1,8 @@
 # Portland Distressed Property Market Overview
 
 **Prepared by:** Reeves, Real Estate Analyst
-**Date:** 2026-04-07
-**Status:** PRELIMINARY — M6 blocked on M2 (Legal) and M3 (Financial)
+**Date:** 2026-04-08
+**Status:** UPDATED — Incorporates M1 decisions (65% rule, $200K cap, Cooperative LLC)
 
 ---
 
@@ -127,29 +127,40 @@ Distressed inventory in target neighborhoods is **nearly double** the metro rate
 
 ## Preliminary Recommendations
 
-### Target Profile
-- **Neighborhoods**: Lents (primary), Cully, Parkrose (secondary), Montavilla (opportunistic)
-- **Price range**: $220,000 - $300,000 purchase price
+### Target Profile (Updated per M1 Decisions)
+- **Tier 1 Neighborhoods**: Lents, Cully, Parkrose (active deal sourcing)
+- **Tier 2 Neighborhoods**: St. Johns, Montavilla (opportunistic only)
+- **Removed**: Woodstock (too expensive), Foster-Powell (margins compressed)
+- **Price range**: $135,000 - $250,000 purchase price (per 65% rule)
 - **Property type**: Single-family, 2-3 BR, 900-1,400 sqft
 - **Condition**: Poor to fair — cosmetic + systems updates, NOT structural rebuilds
 - **Target ARV**: $350,000 - $450,000
-- **Target rehab budget**: $50,000 - $85,000
-- **Target gross margin**: 25%+ (after rehab, holding costs, transaction costs)
+- **Target rehab budget**: $50,000 - $85,000 (must be ≤25% of ARV)
+- **Target ROI**: ≥15% after all costs
+- **Max hold period**: 6 months (target 4 months)
 
-### The 70% Rule (Our Guardrail)
-Maximum purchase price = (ARV x 0.70) - Rehab Cost
+### The 65% Rule (M1 Decision — Our Guardrail)
+Maximum purchase price = (ARV x 0.65) - Rehab Cost
 
-Example: ARV $400K → Max purchase = ($400K x 0.70) - $75K rehab = **$205,000**
+Example: ARV $400K → Max purchase = ($400K x 0.65) - $75K rehab = **$185,000**
 
-This rule ensures minimum 30% gross margin to cover holding costs, transaction costs, and profit. Deals that don't meet this threshold get rejected, period.
+Additional M1 deal standards:
+- **ROI ≥ 15%** after all costs (carrying, closing, overhead)
+- **Rehab ≤ 25% of ARV** — limits capital at risk
+- **Hold period ≤ 6 months** — controls carrying cost exposure
+- **Capital stack:** $200K member equity + hard money at 85% LTV, 11% rate, 2.5 pts
 
-### Next Steps (When M2/M3 Unblock)
-1. Finalize capitalization target with Ledger → determines price ceiling
-2. Confirm legal entity with Statton → determines how we hold title
-3. Run full comp analysis on top 5 candidate properties
-4. Get Harlan's rehab estimates for each
-5. Score and rank deals using deal-scorer tool
-6. Present acquisition recommendation to Maven
+The 65% rule is tighter than the industry-standard 70% rule. Maven made this decision to build in margin of safety for the co-op's first flip. This means we need deeper discounts on purchase — which means we're targeting the most motivated sellers and the most distressed properties. Deals that don't meet ALL four thresholds get rejected, period.
+
+### Next Steps
+**M1 COMPLETE.** Capitalization ($200K) and entity (Cooperative LLC) confirmed.
+
+1. Awaiting M2 (Articles filed) and M3 (capital accounts) — expected within 2-3 sessions
+2. Run full comp analysis on top 3 candidate properties through analysis pipeline
+3. Get Harlan's rehab estimates for each — need scope, materials, labor, timeline
+4. Score and rank deals using deal-scorer with M1 financial parameters
+5. Build full deal analysis (using template) for top 2 candidates
+6. Present acquisition recommendation to Maven for board vote
 
 ---
 
