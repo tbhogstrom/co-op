@@ -1,0 +1,229 @@
+{
+  "example_neighborhood_input": {
+    "name": "Lents",
+    "city": "Portland",
+    "state": "OR",
+    "zip_codes": [
+      "97266",
+      "97236"
+    ],
+    "median_home_price_ratio": 0.72,
+    "appreciation_3yr_pct": 6.8,
+    "days_on_market_avg": 38,
+    "distressed_density_pct": 5.2,
+    "crime_rate_trend": 1.5,
+    "transit_score": 62,
+    "school_rating": 4.5,
+    "development_pipeline_score": 55,
+    "walkability_score": 52
+  },
+  "example_neighborhood_output": {
+    "type": "neighborhood_score",
+    "timestamp": "2026-04-07T10:30:00.000000",
+    "neighborhood": {
+      "name": "Lents",
+      "city": "Portland",
+      "state": "OR",
+      "zip_codes": [
+        "97266",
+        "97236"
+      ]
+    },
+    "overall_score": 61.7,
+    "rating": "MARGINAL",
+    "recommendation": "Below threshold. Monitor for improvement but do not actively source deals.",
+    "deal_threshold": 65.0,
+    "breakdown": [
+      {
+        "criterion": "Median Home Price vs Metro",
+        "key": "median_home_price_ratio",
+        "weight": 0.15,
+        "raw_value": 0.72,
+        "criterion_score": 78.0,
+        "weighted_score": 11.7
+      },
+      {
+        "criterion": "3-Year Price Appreciation (%)",
+        "key": "appreciation_3yr_pct",
+        "weight": 0.2,
+        "raw_value": 6.8,
+        "criterion_score": 64.0,
+        "weighted_score": 12.8
+      },
+      {
+        "criterion": "Average Days on Market",
+        "key": "days_on_market_avg",
+        "weight": 0.1,
+        "raw_value": 38.0,
+        "criterion_score": 67.0,
+        "weighted_score": 6.7
+      },
+      {
+        "criterion": "Distressed Property Density (%)",
+        "key": "distressed_density_pct",
+        "weight": 0.15,
+        "raw_value": 5.2,
+        "criterion_score": 62.0,
+        "weighted_score": 9.3
+      },
+      {
+        "criterion": "Crime Rate Trend",
+        "key": "crime_rate_trend",
+        "weight": 0.1,
+        "raw_value": 1.5,
+        "criterion_score": 50.0,
+        "weighted_score": 5.0
+      },
+      {
+        "criterion": "Transit Access Score",
+        "key": "transit_score",
+        "weight": 0.1,
+        "raw_value": 62.0,
+        "criterion_score": 62.0,
+        "weighted_score": 6.2
+      },
+      {
+        "criterion": "School Rating",
+        "key": "school_rating",
+        "weight": 0.05,
+        "raw_value": 4.5,
+        "criterion_score": 38.8,
+        "weighted_score": 1.94
+      },
+      {
+        "criterion": "Development Pipeline / Investment",
+        "key": "development_pipeline_score",
+        "weight": 0.1,
+        "raw_value": 55.0,
+        "criterion_score": 55.0,
+        "weighted_score": 5.5
+      },
+      {
+        "criterion": "Walkability / Amenities",
+        "key": "walkability_score",
+        "weight": 0.05,
+        "raw_value": 52.0,
+        "criterion_score": 52.0,
+        "weighted_score": 2.6
+      }
+    ]
+  },
+  "example_property_input": {
+    "address": "9234 SE 92nd Ave",
+    "city": "Portland",
+    "state": "OR",
+    "zip_code": "97266",
+    "neighborhood": "Lents",
+    "property_type": "Single Family",
+    "year_built": 1948,
+    "sqft": 1180,
+    "lot_sqft": 5200,
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "purchase_price": 185000,
+    "arv": 385000,
+    "estimated_rehab_cost": 85000,
+    "holding_cost_monthly": 1800,
+    "holding_period_months": 5,
+    "closing_cost_pct": 8.0,
+    "price_arv_spread_pct": 51.9,
+    "rehab_cost_arv_pct": 22.1,
+    "structural_condition": 55,
+    "lot_zoning_upside": 40,
+    "comp_volume": 6,
+    "title_cleanliness": 85,
+    "neighborhood_score": 66.4
+  },
+  "example_property_output": {
+    "type": "property_score",
+    "timestamp": "2026-04-07T10:31:00.000000",
+    "property": {
+      "address": "9234 SE 92nd Ave",
+      "city": "Portland",
+      "state": "OR",
+      "zip_code": "97266",
+      "neighborhood": "Lents",
+      "property_type": "Single Family",
+      "year_built": 1948,
+      "sqft": 1180,
+      "lot_sqft": 5200,
+      "bedrooms": 3,
+      "bathrooms": 1
+    },
+    "overall_score": 67.4,
+    "rating": "GO",
+    "recommendation": "Deal meets both thresholds (score 67.4 >= 65.0, ROI 27.6% >= 15.0%). Proceed to due diligence.",
+    "deal_threshold": 65.0,
+    "return_threshold": 15.0,
+    "financials": {
+      "purchase_price": 185000,
+      "arv": 385000,
+      "estimated_rehab_cost": 85000,
+      "spread": 200000,
+      "spread_pct": 51.9,
+      "holding_costs": 9000,
+      "estimated_closing_costs": 22800,
+      "total_investment": 301800,
+      "projected_profit": 83200,
+      "projected_roi_pct": 27.6
+    },
+    "breakdown": [
+      {
+        "criterion": "Purchase Price vs ARV Spread (%)",
+        "key": "price_arv_spread_pct",
+        "weight": 0.25,
+        "raw_value": 51.9,
+        "criterion_score": 86.9,
+        "weighted_score": 21.73
+      },
+      {
+        "criterion": "Rehab Cost as % of ARV",
+        "key": "rehab_cost_arv_pct",
+        "weight": 0.2,
+        "raw_value": 22.1,
+        "criterion_score": 58.7,
+        "weighted_score": 11.74
+      },
+      {
+        "criterion": "Structural Condition",
+        "key": "structural_condition",
+        "weight": 0.15,
+        "raw_value": 55.0,
+        "criterion_score": 50.0,
+        "weighted_score": 7.5
+      },
+      {
+        "criterion": "Lot Size & Zoning Upside",
+        "key": "lot_zoning_upside",
+        "weight": 0.1,
+        "raw_value": 40.0,
+        "criterion_score": 40.0,
+        "weighted_score": 4.0
+      },
+      {
+        "criterion": "Comparable Sales Volume",
+        "key": "comp_volume",
+        "weight": 0.1,
+        "raw_value": 6.0,
+        "criterion_score": 75.0,
+        "weighted_score": 7.5
+      },
+      {
+        "criterion": "Title Cleanliness",
+        "key": "title_cleanliness",
+        "weight": 0.1,
+        "raw_value": 85.0,
+        "criterion_score": 82.5,
+        "weighted_score": 8.25
+      },
+      {
+        "criterion": "Neighborhood Score",
+        "key": "neighborhood_score",
+        "weight": 0.1,
+        "raw_value": 66.4,
+        "criterion_score": 66.4,
+        "weighted_score": 6.64
+      }
+    ]
+  }
+}
