@@ -1,0 +1,138 @@
+{
+  "subject_address": "4523 SE 92nd Ave, Portland, OR",
+  "methods": [
+    {
+      "name": "comp_based",
+      "value": 319256.9,
+      "weight": 0.5,
+      "details": {
+        "comp_count": 7,
+        "comps": [
+          {
+            "address": "8451 SE Bush St, Portland, OR",
+            "sale_price": 265370,
+            "adjusted_price": 261889.32,
+            "weight": 0.983,
+            "adjustments": {
+              "sqft": -1860.0,
+              "bed_bath": 0.0,
+              "lot": -9828.0,
+              "condition": 8207.32
+            }
+          },
+          {
+            "address": "5004 SE 99th Ave, Portland, OR",
+            "sale_price": 334829,
+            "adjusted_price": 341890.54,
+            "weight": 0.971,
+            "adjustments": {
+              "sqft": 0.0,
+              "bed_bath": 0.0,
+              "lot": -3294.0,
+              "condition": 10355.54
+            }
+          },
+          {
+            "address": "8241 SE Raymond Ct, Portland, OR",
+            "sale_price": 250674,
+            "adjusted_price": 265362.8,
+            "weight": 0.994,
+            "adjustments": {
+              "sqft": 10230.0,
+              "bed_bath": 0.0,
+              "lot": -3294.0,
+              "condition": 7752.8
+            }
+          },
+          {
+            "address": "5104 SE 109th Ave, Portland, OR",
+            "sale_price": 347037,
+            "adjusted_price": 350933.1,
+            "weight": 0.952,
+            "adjustments": {
+              "sqft": -930.0,
+              "bed_bath": 0.0,
+              "lot": -5907.0,
+              "condition": 10733.1
+            }
+          },
+          {
+            "address": "4620 SE 104th Ave, Portland, OR",
+            "sale_price": 276030,
+            "adjusted_price": 284059.01,
+            "weight": 0.987,
+            "adjustments": {
+              "sqft": 21080.0,
+              "bed_bath": 0.0,
+              "lot": -21588.0,
+              "condition": 8537.01
+            }
+          },
+          {
+            "address": "7006 SE 91st Ave, Portland, OR",
+            "sale_price": 337040,
+            "adjusted_price": 364251.92,
+            "weight": 0.998,
+            "adjustments": {
+              "sqft": 21390.0,
+              "bed_bath": 0.0,
+              "lot": -4602.0,
+              "condition": 10423.92
+            }
+          },
+          {
+            "address": "3914 SE 105th Ave, Portland, OR",
+            "sale_price": 371409,
+            "adjusted_price": 367095.88,
+            "weight": 0.997,
+            "adjustments": {
+              "sqft": -16585.0,
+              "bed_bath": 8000.0,
+              "lot": -7215.0,
+              "condition": 11486.88
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "price_per_sqft",
+      "value": 337500.0,
+      "weight": 0.3,
+      "details": {
+        "neighborhood_median_ppsf": 310,
+        "subject_sqft": 1050,
+        "base_value": 325500,
+        "lot_factor": 1.0,
+        "feature_bonus": 12000.0,
+        "feature_notes": {
+          "garage": 12000
+        }
+      }
+    },
+    {
+      "name": "percentage_of_improvement",
+      "value": 331250.0,
+      "weight": 0.2,
+      "details": {
+        "as_is_value": 245000,
+        "rehab_cost": 75000,
+        "neighborhood_tier": "moderate",
+        "market_multiplier": 1.15,
+        "formula": "245000 + 75000 * 1.15"
+      }
+    }
+  ],
+  "final_arv": 327000,
+  "confidence_level": "high",
+  "confidence_range": {
+    "low": 311000,
+    "mid": 327000,
+    "high": 343500
+  },
+  "rehab_cost": 75000,
+  "estimated_profit_at_65_rule": 137500,
+  "notes": [
+    "65% rule max offer: $137,500 (ARV $327,000 x 0.65 - rehab $75,000)"
+  ]
+}

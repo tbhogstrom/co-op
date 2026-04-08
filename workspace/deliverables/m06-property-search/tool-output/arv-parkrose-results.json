@@ -1,0 +1,114 @@
+{
+  "subject_address": "3312 NE 112th Ave, Portland, OR",
+  "methods": [
+    {
+      "name": "comp_based",
+      "value": 334633.05,
+      "weight": 0.5,
+      "details": {
+        "comp_count": 5,
+        "comps": [
+          {
+            "address": "1434 NE Sacramento St, Portland, OR",
+            "sale_price": 207843.36,
+            "adjusted_price": 213347.51,
+            "weight": 0.979,
+            "adjustments": {
+              "sqft": 2175.0,
+              "bed_bath": 0.0,
+              "lot": -3099.0,
+              "condition": 6428.15
+            }
+          },
+          {
+            "address": "6574 NE Fremont St, Portland, OR",
+            "sale_price": 296418.46,
+            "adjusted_price": 309090.04,
+            "weight": 0.937,
+            "adjustments": {
+              "sqft": 2610.0,
+              "bed_bath": 0.0,
+              "lot": 894.0,
+              "condition": 9167.58
+            }
+          },
+          {
+            "address": "1993 NE Shaver St, Portland, OR",
+            "sale_price": 359455.21,
+            "adjusted_price": 371966.38,
+            "weight": 0.902,
+            "adjustments": {
+              "sqft": -1015.0,
+              "bed_bath": 0.0,
+              "lot": 2409.0,
+              "condition": 11117.17
+            }
+          },
+          {
+            "address": "5371 NE Sacramento St, Portland, OR",
+            "sale_price": 325281.94,
+            "adjusted_price": 357171.21,
+            "weight": 0.941,
+            "adjustments": {
+              "sqft": 17980.0,
+              "bed_bath": 6000.0,
+              "lot": -2151.0,
+              "condition": 10060.27
+            }
+          },
+          {
+            "address": "7570 NE 109th Ave, Portland, OR",
+            "sale_price": 418202.87,
+            "adjusted_price": 428050.98,
+            "weight": 0.939,
+            "adjustments": {
+              "sqft": -7540.0,
+              "bed_bath": 2000.0,
+              "lot": 2454.0,
+              "condition": 12934.11
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "price_per_sqft",
+      "value": 334828.0,
+      "weight": 0.3,
+      "details": {
+        "neighborhood_median_ppsf": 290,
+        "subject_sqft": 1100,
+        "base_value": 319000,
+        "lot_factor": 1.012,
+        "feature_bonus": 12000.0,
+        "feature_notes": {
+          "garage": 12000
+        }
+      }
+    },
+    {
+      "name": "percentage_of_improvement",
+      "value": 284160.0,
+      "weight": 0.2,
+      "details": {
+        "as_is_value": 228000,
+        "rehab_cost": 52000,
+        "neighborhood_tier": "cool",
+        "market_multiplier": 1.08,
+        "formula": "228000 + 52000 * 1.08"
+      }
+    }
+  ],
+  "final_arv": 324500,
+  "confidence_level": "medium",
+  "confidence_range": {
+    "low": 292000,
+    "mid": 324500,
+    "high": 357000
+  },
+  "rehab_cost": 52000,
+  "estimated_profit_at_65_rule": 159000,
+  "notes": [
+    "65% rule max offer: $159,000 (ARV $324,500 x 0.65 - rehab $52,000)"
+  ]
+}

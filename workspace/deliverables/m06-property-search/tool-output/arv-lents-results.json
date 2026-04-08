@@ -1,0 +1,114 @@
+{
+  "subject_address": "4523 SE 92nd Ave, Portland, OR",
+  "methods": [
+    {
+      "name": "comp_based",
+      "value": 315043.9,
+      "weight": 0.5,
+      "details": {
+        "comp_count": 5,
+        "comps": [
+          {
+            "address": "4608 SE Flavel St, Portland, OR",
+            "sale_price": 292807.92,
+            "adjusted_price": 306721.84,
+            "weight": 0.958,
+            "adjustments": {
+              "sqft": 8215.0,
+              "bed_bath": 0.0,
+              "lot": -3357.0,
+              "condition": 9055.92
+            }
+          },
+          {
+            "address": "7924 SE Knight St, Portland, OR",
+            "sale_price": 295825.16,
+            "adjusted_price": 308058.39,
+            "weight": 0.937,
+            "adjustments": {
+              "sqft": 2790.0,
+              "bed_bath": 0.0,
+              "lot": 294.0,
+              "condition": 9149.23
+            }
+          },
+          {
+            "address": "2612 SE 93rd Ave, Portland, OR",
+            "sale_price": 363321.44,
+            "adjusted_price": 375282.19,
+            "weight": 0.902,
+            "adjustments": {
+              "sqft": -1085.0,
+              "bed_bath": 0.0,
+              "lot": 1809.0,
+              "condition": 11236.75
+            }
+          },
+          {
+            "address": "9797 SE 93rd Ave, Portland, OR",
+            "sale_price": 323683.81,
+            "adjusted_price": 350163.65,
+            "weight": 0.941,
+            "adjustments": {
+              "sqft": 19220.0,
+              "bed_bath": 0.0,
+              "lot": -2751.0,
+              "condition": 10010.84
+            }
+          },
+          {
+            "address": "1434 SE Ramona St, Portland, OR",
+            "sale_price": 234700.52,
+            "adjusted_price": 240585.3,
+            "weight": 0.979,
+            "adjustments": {
+              "sqft": 2325.0,
+              "bed_bath": 0.0,
+              "lot": -3699.0,
+              "condition": 7258.78
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "price_per_sqft",
+      "value": 337500.0,
+      "weight": 0.3,
+      "details": {
+        "neighborhood_median_ppsf": 310,
+        "subject_sqft": 1050,
+        "base_value": 325500,
+        "lot_factor": 1.0,
+        "feature_bonus": 12000.0,
+        "feature_notes": {
+          "garage": 12000
+        }
+      }
+    },
+    {
+      "name": "percentage_of_improvement",
+      "value": 331250.0,
+      "weight": 0.2,
+      "details": {
+        "as_is_value": 245000,
+        "rehab_cost": 75000,
+        "neighborhood_tier": "moderate",
+        "market_multiplier": 1.15,
+        "formula": "245000 + 75000 * 1.15"
+      }
+    }
+  ],
+  "final_arv": 325000,
+  "confidence_level": "high",
+  "confidence_range": {
+    "low": 309000,
+    "mid": 325000,
+    "high": 341500
+  },
+  "rehab_cost": 75000,
+  "estimated_profit_at_65_rule": 136500,
+  "notes": [
+    "65% rule max offer: $136,500 (ARV $325,000 x 0.65 - rehab $75,000)"
+  ]
+}

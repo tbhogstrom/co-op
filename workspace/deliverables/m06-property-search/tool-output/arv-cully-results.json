@@ -1,0 +1,114 @@
+{
+  "subject_address": "6847 NE Killingsworth St, Portland, OR",
+  "methods": [
+    {
+      "name": "comp_based",
+      "value": 321503.34,
+      "weight": 0.5,
+      "details": {
+        "comp_count": 5,
+        "comps": [
+          {
+            "address": "7912 NE Killingsworth St, Portland, OR",
+            "sale_price": 281090.52,
+            "adjusted_price": 284218.04,
+            "weight": 0.941,
+            "adjustments": {
+              "sqft": 1280.0,
+              "bed_bath": 0.0,
+              "lot": -6846.0,
+              "condition": 8693.52
+            }
+          },
+          {
+            "address": "2160 NE Emerson St, Portland, OR",
+            "sale_price": 261754.83,
+            "adjusted_price": 281404.34,
+            "weight": 0.966,
+            "adjustments": {
+              "sqft": 12160.0,
+              "bed_bath": 0.0,
+              "lot": -606.0,
+              "condition": 8095.51
+            }
+          },
+          {
+            "address": "7735 NE Sumner St, Portland, OR",
+            "sale_price": 382500.32,
+            "adjusted_price": 403579.23,
+            "weight": 0.931,
+            "adjustments": {
+              "sqft": 12960.0,
+              "bed_bath": 0.0,
+              "lot": -3711.0,
+              "condition": 11829.91
+            }
+          },
+          {
+            "address": "1434 NE Alberta St, Portland, OR",
+            "sale_price": 246957.68,
+            "adjusted_price": 252396.55,
+            "weight": 0.979,
+            "adjustments": {
+              "sqft": 2400.0,
+              "bed_bath": 0.0,
+              "lot": -4599.0,
+              "condition": 7637.87
+            }
+          },
+          {
+            "address": "6574 NE Sumner St, Portland, OR",
+            "sale_price": 379684.98,
+            "adjusted_price": 390890.81,
+            "weight": 0.937,
+            "adjustments": {
+              "sqft": 2880.0,
+              "bed_bath": 0.0,
+              "lot": -3417.0,
+              "condition": 11742.83
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "price_per_sqft",
+      "value": 386355.2,
+      "weight": 0.3,
+      "details": {
+        "neighborhood_median_ppsf": 320,
+        "subject_sqft": 1180,
+        "base_value": 377600,
+        "lot_factor": 1.002,
+        "feature_bonus": 8000.0,
+        "feature_notes": {
+          "basement": 8000
+        }
+      }
+    },
+    {
+      "name": "percentage_of_improvement",
+      "value": 323200.0,
+      "weight": 0.2,
+      "details": {
+        "as_is_value": 268000,
+        "rehab_cost": 48000,
+        "neighborhood_tier": "moderate",
+        "market_multiplier": 1.15,
+        "formula": "268000 + 48000 * 1.15"
+      }
+    }
+  ],
+  "final_arv": 341500,
+  "confidence_level": "medium",
+  "confidence_range": {
+    "low": 307000,
+    "mid": 341500,
+    "high": 375500
+  },
+  "rehab_cost": 48000,
+  "estimated_profit_at_65_rule": 174000,
+  "notes": [
+    "65% rule max offer: $174,000 (ARV $341,500 x 0.65 - rehab $48,000)"
+  ]
+}
