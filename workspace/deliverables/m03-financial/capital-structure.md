@@ -50,8 +50,8 @@ Member Capital Account
 | **Additional contributions** | Accepted with board approval; adjusts capital percentages for future flips |
 | **Interest on capital** | None. Returns come from profit distributions, not interest. |
 | **Withdrawal** | 90-day written notice. Not permitted during active projects. Subject to minimum reserve balance. Board approval required. |
-| **Involuntary redemption** | If a member is expelled per OA terms, capital account balance is returned within 180 days, less any outstanding obligations (advances, damages). |
-| **Death/disability** | Capital account balance is payable to estate within 180 days. |
+| **Involuntary redemption** | If a member is expelled per OA terms, capital account balance is returned within 120 days (lump sum) OR via a 12-month installment plan at the co-op's election, less any outstanding obligations (advances, damages). Per OA §___ (Statton draft). |
+| **Death/disability** | Capital account balance is payable to estate within 120 days (lump sum) OR via a 12-month installment plan at the co-op's election. |
 | **Transfer** | Capital accounts are non-transferable except to the co-op. No secondary market. |
 
 ### Founding Member Capital Table (Approved Configuration)

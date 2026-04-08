@@ -397,13 +397,14 @@ Forty percent (40%) of Gross Profit shall be allocated to Members proportionally
 | Trade Classification | Trade Rate |
 |---------------------|------------|
 | Project Manager / General Contractor | 1.15x |
-| Licensed Plumber | 1.2x |
-| Licensed Electrician | 1.2x |
-| Licensed HVAC Technician | 1.2x |
-| Roofing | 1.1x |
-| Carpenter / Framing | 1.0x |
+| Licensed Plumber | 1.3x |
+| Licensed Electrician | 1.3x |
+| Licensed HVAC Technician | 1.3x |
+| Roofing | 1.2x |
+| Carpenter / Framing | 1.2x |
 | Painting / Finishing / Drywall | 1.0x |
 | General Labor | 1.0x |
+| Operations / Admin | 1.0x |
 
 Trade Rates may be amended by Supermajority Vote. New trade classifications may be added by Majority Vote.
 
@@ -416,6 +417,8 @@ Trade Rates may be amended by Supermajority Vote. New trade classifications may 
 (a) During the rehabilitation period of an Active Project, a Member may request a Labor Advance from the Company of up to fifty percent (50%) of the Member's estimated Labor Share for that Project.
 
 (b) Labor Advances shall be calculated based on the Member's verified Labor Hours to date, the applicable Trade Rate, the Treasurer's good-faith estimate of total Project Gross Profit (using conservative assumptions), and the formula in Section 8.2(d).
+
+(b-1) **Completion Gate.** No Labor Advance shall be made until the Project has reached at least thirty percent (30%) completion of the approved rehabilitation scope of work, as certified by the Project Manager or Responsible Managing Individual.
 
 (c) **Board Approval.** Labor Advance requests not exceeding Three Thousand Dollars ($3,000) per month may be approved by the Treasurer. Labor Advance requests exceeding Three Thousand Dollars ($3,000) per month require Board approval.
 
@@ -469,7 +472,7 @@ Trade Rates may be amended by Supermajority Vote. New trade classifications may 
 
 (c) Annually: Year-end financial statements (balance sheet, income statement, member capital account statements).
 
-**9.4 Banking.** All Company funds shall be deposited in accounts at a federally insured financial institution designated by the Board. Withdrawals over Five Thousand Dollars ($5,000) shall require two (2) authorized signers (Board members).
+**9.4 Banking.** All Company funds shall be deposited in accounts at a federally insured financial institution designated by the Board. Withdrawals over Two Thousand Five Hundred Dollars ($2,500) shall require two (2) authorized signers (Board members).
 
 ---
 
@@ -599,7 +602,7 @@ Trade Rates may be amended by Supermajority Vote. New trade classifications may 
 
 **15.5 Oregon ORS 670.600 Compliance.** The Company and each Member intend that the relationship satisfies the independent contractor factors set forth in ORS 670.600. The Operating Agreement, Member Agreements, and all Company practices shall be structured to support this classification.
 
-**15.6 Non-Competition.** During the term of a Member's membership and for a period of six (6) months following voluntary withdrawal or expulsion:
+**15.6 Non-Competition.** During the term of a Member's membership and for a period of twelve (12) months following voluntary withdrawal or expulsion:
 
 (a) No Member shall, without prior written approval of the Board, individually or through any entity acquire, renovate, and sell (i.e., "flip") residential real property within the Portland metropolitan area (Multnomah, Clackamas, and Washington counties) for the purpose of resale at a profit.
 
@@ -673,13 +676,14 @@ IN WITNESS WHEREOF, the undersigned Members have executed this Operating Agreeme
 | Trade Classification | Trade Rate Multiplier | Applicable To |
 |---------------------|-----------------------|---------------|
 | Project Manager / General Contractor | 1.15x | Members with GC license overseeing project operations |
-| Licensed Plumber | 1.2x | Members with journeyman or master plumber license |
-| Licensed Electrician | 1.2x | Members with journeyman or master electrician license |
-| Licensed HVAC Technician | 1.2x | Members with HVAC license |
-| Roofing | 1.1x | Members performing roofing work |
-| Carpenter / Framing | 1.0x | Members performing structural carpentry |
+| Licensed Plumber | 1.3x | Members with journeyman or master plumber license |
+| Licensed Electrician | 1.3x | Members with journeyman or master electrician license |
+| Licensed HVAC Technician | 1.3x | Members with HVAC license |
+| Roofing | 1.2x | Members performing roofing work |
+| Carpenter / Framing | 1.2x | Members performing structural carpentry |
 | Painting / Finishing / Drywall | 1.0x | Members performing finish work |
 | General Labor | 1.0x | Members performing non-specialized labor |
+| Operations / Admin | 1.0x | Members performing administrative or operational tasks |
 
 A Member performing multiple trades on a single Project shall log hours under the applicable trade for each task. The Trade Rate for each logged hour shall correspond to the trade under which it is logged.
 
