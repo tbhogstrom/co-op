@@ -2,7 +2,7 @@
 
 **Status:** ACTIVE — Updated daily during recruitment phase  
 **Author:** Calloway  
-**Date:** 2026-04-08  
+**Date:** 2026-04-15 (Week 2 update)  
 **Target:** 6 founding members, full cohort finalized within 10 weeks (by 2026-06-17)
 
 ---
@@ -12,14 +12,16 @@
 | Slot | Name | Trade | Status | Score | Buy-In Tier | Est. Amount | Notes |
 |------|------|-------|--------|-------|-------------|-------------|-------|
 | 1 | **Maven** | Founder / Coordinator | **CONFIRMED** | N/A | Tier A | $40,000 | Founding organizer. Confirmed. |
-| 2 | **Birch** | Carpenter | **IN VETTING** | 87/100 | Tier B | $10,000-$15,000 | Conditional recommend — EPA RRP renewal required |
-| 3 | **Slate** | Roofer | **IN VETTING** | 84/100 | Tier C-B | $5,000-$10,000 | Recommend — wants to see operating agreement and meet cohort |
-| 4 | **Copper** | Plumber | **IN VETTING** | 97/100 | Tier B | $20,000-$25,000 | Strong recommend — priority candidate |
-| 5 | **[Electrician]** | Electrician | **SEARCHING** | — | TBD | TBD | 3 leads identified (Volt, Wren, Sparks) |
+| 2 | **Birch** | Carpenter | **IN VETTING** | 87/100 | Tier B | $10,000-$15,000 | EPA RRP refresher registered May 10. On track. |
+| 3 | **Slate** | Roofer | **IN VETTING** | 84/100 | Tier C-B | $5,000-$10,000 | Reviewed terms summary. Confirmed for April 29 meeting. |
+| 4 | **Copper** | Plumber | **IN VETTING** | 97/100 | Tier B | $20,000-$25,000 | Strong recommend — fully engaged, buy-in funds ready |
+| 5a | **Volt** | Electrician | **OUTREACH — ADVANCING** | TBD | Tier B (est.) | $15,000 (est.) | First call April 14 — interest 4/5. Info packet sent. K&T specialist. Primary lead. |
+| 5b | **Wren** | Electrician | **OUTREACH — HOLD** | TBD | Tier C (est.) | $5,000 (est.) | First call April 15 — interest 3/5. K&T experience thin. Secondary lead. |
+| 5c | **Sparks** | Electrician | **AWAITING INTRO** | TBD | TBD | TBD | Introduction pending from Oregon Tradeswomen. Target: week of April 21. |
 | 6 | **[TBD]** | Open | **NOT STARTED** | — | TBD | TBD | Depends on cohort composition after slots 2-5 |
 
-**Slots filled:** 1 confirmed, 3 in vetting, 1 searching, 1 open  
-**Slots remaining to target:** 5 (3 near-term, 2 active search)
+**Slots filled:** 1 confirmed, 3 in vetting, 1 in active outreach (3 leads), 1 open  
+**Slots remaining to target:** 5 (3 near-term vetting, 1 electrician advancing, 1 open)
 
 ---
 
@@ -93,12 +95,12 @@
 
 **Target: Full founding cohort confirmed by 2026-06-17 (10 weeks from today)**
 
-| Week | Date | Milestone |
-|------|------|-----------|
-| 1 | 2026-04-08 | Interview reports completed for Birch, Slate, Copper. Electrician leads identified. |
-| 2 | 2026-04-15 | First outreach calls to Volt and Wren (electrician leads). Birch EPA RRP renewal initiated. |
-| 3 | 2026-04-22 | First call with Sparks (electrician lead). Operating agreement draft shared with Slate. |
-| 4 | 2026-04-29 | Founders' meeting: Birch, Copper, Maven. Slate invited. In-person meeting with lead electrician candidate. |
+| Week | Date | Milestone | Status |
+|------|------|-----------|--------|
+| 1 | 2026-04-08 | Interview reports completed for Birch, Slate, Copper. Electrician leads identified. | COMPLETE |
+| 2 | 2026-04-15 | Outreach calls to Volt (interest 4/5) and Wren (interest 3/5). Birch EPA RRP registered May 10. Slate confirmed for April 29 meeting. Founders' meeting agenda drafted. | COMPLETE |
+| 3 | 2026-04-22 | First call with Sparks. Follow-up calls with Volt and Wren. Distribute advance materials for April 29 meeting. Target: amended OA from Statton. | UPCOMING |
+| 4 | 2026-04-29 | Founders' meeting: Maven, Birch, Slate, Copper, Calloway. In-person meeting with Volt if he advances in Week 3. | SCHEDULED |
 | 5 | 2026-05-06 | Formal interview and vetting for electrician lead candidate. Slate decision expected. |
 | 6 | 2026-05-13 | Electrician candidate advanced or backup plan activated. Birch/Copper membership votes. |
 | 7 | 2026-05-20 | Slate membership vote. 6th member slot discussion — what trade do we need? |
@@ -237,19 +239,83 @@ We are on track. The cohort is forming.
 
 ### Week 2 Success Criteria
 
-- [ ] At least one substantive call completed with Volt or Wren
-- [ ] Slate has received terms summary and had time to review
-- [ ] Birch EPA RRP renewal confirmed in progress
-- [ ] Copper warm and engaged
-- [ ] Maven has approved interview reports
-- [ ] Founders' meeting date confirmed for April 29
+- [x] At least one substantive call completed with Volt or Wren — **DONE: Both calls completed. Volt 4/5, Wren 3/5.**
+- [x] Slate has received terms summary and had time to review — **DONE: Received April 9, reviewed, three questions addressed April 15.**
+- [x] Birch EPA RRP renewal confirmed in progress — **DONE: Registered for May 10 refresher at NW Environmental Training Center.**
+- [x] Copper warm and engaged — **DONE: Fully engaged, buy-in funds ready, confirmed for April 29.**
+- [ ] Maven has approved interview reports — **PENDING: Awaiting Maven's review.**
+- [x] Founders' meeting date confirmed for April 29 — **DONE: Agenda drafted. Slate and Copper confirmed. Birch expected yes.**
+
+**Week 2 assessment: 5 of 6 criteria met. Strong week. Volt outreach exceeded expectations. Slate confirmed for founders' meeting — major milestone.**
+
+---
+
+## 8. Week 3 Action Items (Target: April 22, 2026)
+
+### Electrician Follow-Up
+
+| # | Action | Owner | Due | Dependencies |
+|---|--------|-------|-----|--------------|
+| 1 | Follow-up call with Volt — address questions from info packet | Calloway | April 21-23 | Volt reviews packet by April 21 |
+| 2 | Follow-up call with Wren — address K&T depth question, discuss packet | Calloway | April 21-23 | Wren reviews packet by April 25 |
+| 3 | First outreach call to Sparks (Oregon Tradeswomen referral) | Calloway | April 21-23 | Introduction from OT coordinator |
+| 4 | If Volt interest remains 4+: schedule in-person meeting with Harlan for week of April 28 | Calloway | April 23 | Volt follow-up call result |
+| 5 | Decision: invite Volt to April 29 founders' meeting as observer? | Maven + Calloway | April 22 | Volt's advancement status |
+
+### Founders' Meeting Preparation
+
+| # | Action | Owner | Due | Dependencies |
+|---|--------|-------|-----|--------------|
+| 6 | Reserve Cully Community Room for April 29 | Calloway | April 18 | Room availability |
+| 7 | Distribute advance materials to Birch, Slate, Copper (pitch-deck, financial guide, OA, member agreement, agenda) | Calloway | April 22 | Documents ready |
+| 8 | Brief Maven on presentation responsibilities (agenda items 2, 3, 7) | Calloway | April 22 | Agenda approved |
+| 9 | Confirm Birch attendance at April 29 meeting | Calloway | April 22 | Birch availability |
+| 10 | Set up Zoom backup for April 29 | Calloway | April 25 | None |
+
+### Slate — Continue Closing Sequence
+
+| # | Action | Owner | Due | Dependencies |
+|---|--------|-------|-----|--------------|
+| 11 | Get amended OA from Statton (exit/buyout language finalized) | Statton | April 22 (target) | OA amendments in progress |
+| 12 | Share final OA with Slate once amendments are complete | Calloway | Within 24 hrs of Statton delivery | Statton delivers amended OA |
+| 13 | If OA not ready by April 22: send current draft with amendment cover note | Calloway | April 22 | Statton deadline missed |
+
+### Birch — Monitor
+
+| # | Action | Owner | Due | Dependencies |
+|---|--------|-------|-----|--------------|
+| 14 | Confirm Birch's May 10 EPA RRP refresher registration is still on track | Calloway | April 22 | None |
+
+### Copper — Hold Warm
+
+| # | Action | Owner | Due | Dependencies |
+|---|--------|-------|-----|--------------|
+| 15 | Send Copper the advance meeting materials first — he asked for them | Calloway | April 22 | Materials ready |
+
+### Cross-Functional Dependencies
+
+| # | Action | Owner | Due | Why |
+|---|--------|-------|-----|-----|
+| 16 | Amended Operating Agreement delivery | Statton | April 22 | Slate and meeting prep both depend on this |
+| 17 | Maven review and approval of interview reports | Maven | April 18 (overdue) | Candidates are asking about status |
+| 18 | Confirm minimum capitalization with Ledger (is $115K workable?) | Ledger | April 18 (overdue from Week 2) | Must be resolved before financial model walkthrough at April 29 meeting |
+
+### Week 3 Success Criteria
+
+- [ ] Volt follow-up call completed; interest level maintained or increased
+- [ ] Wren follow-up call completed; K&T depth assessed
+- [ ] First call with Sparks completed
+- [ ] All advance materials distributed to founding candidates for April 29 meeting
+- [ ] Cully Community Room reserved for April 29
+- [ ] Maven has approved interview reports (carried forward from Week 2)
+- [ ] Amended OA received from Statton (or fallback plan activated)
 
 ---
 
 **Calloway**  
-2026-04-08
+2026-04-15
 
 ---
 
 *Portland Housing Cooperative LLC — Founding Cohort Status Dashboard*  
-*Updated: 2026-04-08*
+*Updated: 2026-04-15*
