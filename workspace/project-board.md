@@ -1,7 +1,7 @@
 # Portland Housing Co-op — Project Board
 
-**Last updated:** 2026-04-08
-**Phase:** M1 CLOSING → M2, M3, M4 ACTIVATING
+**Last updated:** 2026-04-08 (end of day)
+**Phase:** M2, M3, M4 ACTIVE — OA amendments pending
 
 ---
 
@@ -9,12 +9,12 @@
 
 | # | Milestone | Status | Owner(s) | Dependencies | Notes |
 |---|-----------|--------|----------|--------------|-------|
-| M1 | Co-op Vision & Strategy | CLOSING | Maven, Ledger | — | All decisions made; pending Ledger sign-off on financials |
-| M2 | Legal Formation | READY | Statton, Maven | M1 | UNBLOCKED — Entity decision: Cooperative LLC. Statton to draft OA, Articles, Member Agreement |
-| M3 | Financial Foundation | READY | Ledger, Maven | M1 | UNBLOCKED — Cap target $200K, profit split 20/10/30/40, 6 members |
-| M4 | Member Recruitment | READY | Calloway, Maven | M1 | PARTIALLY UNBLOCKED — Pitch materials can be finalized; vetting can begin |
-| M5 | Membership Agreements | BLOCKED | Statton, Ledger | M2, M3 | Waiting on legal structure and financial terms |
-| M6 | First Property Search | BLOCKED | Reeves, Maven, Ledger | M2, M3 | Preliminary tools + data complete; waiting on entity + capitalization confirmation |
+| M1 | Co-op Vision & Strategy | ✅ CLOSED | Maven, Ledger | — | All decisions made; Ledger sign-off received 2026-04-08 |
+| M2 | Legal Formation | 🔄 ACTIVE | Statton, Maven | M1 ✅ | OA draft + Member Agreement + CCB checklist + tax memo complete. OA amendments pending (6 items — see oa-amendment-decisions.md) |
+| M3 | Financial Foundation | 🔄 ACTIVE | Ledger, Maven | M1 ✅ | Capital structure, profit-split, break-even, cash flow, advance tracker, labor tracker all complete. OA cross-check done. Member financial guide done. PM rate + clawback timeline updates pending. |
+| M4 | Member Recruitment | 🔄 ACTIVE | Calloway, Maven | M1 ✅ | 3 candidates vetted (Birch 87, Slate 84, Copper 97). Electrician search active (3 leads). Capitalization gap flagged ($115K projected vs $200K target). |
+| M5 | Membership Agreements | BLOCKED | Statton, Ledger | M2, M3 | Waiting on OA amendments + finalized financial terms |
+| M6 | First Property Search | BLOCKED | Reeves, Maven, Ledger | M2, M3 | Preliminary tools + data complete; waiting on entity formation + capitalization confirmation |
 | M7 | Property Acquisition | BLOCKED | Reeves, Ledger, Statton | M6 | Waiting on property search results |
 | M8 | Rehab Planning | BLOCKED | Harlan, Birch, Slate, Copper | M7 | Waiting on property acquisition |
 | M9 | Renovation Execution | BLOCKED | Harlan, Birch, Slate, Copper | M8 | Waiting on rehab plan |
@@ -25,14 +25,14 @@
 
 | Agent | Name | Role | Status |
 |-------|------|------|--------|
-| Maven | Founder | Orchestrator | ACTIVE — reviewing deliverables, making M1 decisions |
-| Statton | Attorney | Legal Counsel | ACTIVE — M2 preliminary research complete |
-| Reeves | Analyst | Real Estate | ACTIVE — M6 preliminary tools + data complete |
-| Ledger | Accountant | CFO | ACTIVE — M1 financial deliverables complete |
-| Calloway | Recruiter | Member Outreach | ACTIVE — M4 preliminary recruitment brief complete |
-| Birch | Carpenter | Trades | NOT YET RECRUITED |
-| Slate | Roofer | Trades | NOT YET RECRUITED |
-| Copper | Plumber | Trades | NOT YET RECRUITED |
+| Maven | Founder | Orchestrator | ACTIVE — reviewed all deliverables, issued OA amendment decisions |
+| Statton | Attorney | Legal Counsel | DELIVERED — M2 deliverables (4/4). Awaiting OA amendment directives. |
+| Reeves | Analyst | Real Estate | STANDBY — M6 preliminary tools + data complete; waiting on M2/M3 |
+| Ledger | Accountant | CFO | DELIVERED — M3 deliverables (4/4). Minor updates pending (PM rate, clawback). |
+| Calloway | Recruiter | Member Outreach | DELIVERED — M4 deliverables (6/6). Active on electrician search. |
+| Birch | Carpenter | Trades | IN VETTING — Conditional recommend (EPA RRP renewal needed) |
+| Slate | Roofer | Trades | IN VETTING — Recommend (wants to see OA + meet cohort) |
+| Copper | Plumber | Trades | IN VETTING — Strong recommend (97/100, anchor candidate) |
 
 ## Decisions Log
 
@@ -52,16 +52,25 @@
 | 2026-04-08 | Minimum deal standards: ≤65% ARV, ≥15% ROI, ≤6mo hold | Maven | Per Ledger's sensitivity analysis — keeps us safe |
 | 2026-04-08 | CCB licensing mandatory for entity + all members | Maven | Per Statton's research; no owner-builder exemption for flip-to-sell |
 | 2026-04-08 | M2, M3, M4 UNBLOCKED | Maven | All M1 decisions made; agents assigned next-phase work |
+| 2026-04-08 | OA amendments: adopt Ledger's trade rates, add 30% gate, 12mo non-compete, $2.5K dual-sig, 60-day clawback | Maven | Cross-check by Statton + Ledger found 6 inconsistencies. All resolved. See oa-amendment-decisions.md |
+| 2026-04-08 | Involuntary redemption: keep OA at 120 days + 12mo installment option | Maven | OA terms more flexible than Ledger's flat 180 days. Ledger to update capital-structure.md. |
+| 2026-04-08 | PTE tax election: defer to Year 2+ per Statton's analysis | Maven | Marginal benefit at current scale; revisit when per-member income >$50K |
+| 2026-04-08 | S-corp election: not feasible per Statton's analysis | Maven | One-class-of-stock rule incompatible with our patronage-based split |
 
 ## Blockers
 
 | Blocker | Affects | Owner | Status |
 |---------|---------|-------|--------|
-| Ledger sign-off on final M1 parameters | M1 closure | Ledger | PENDING |
+| ~~Ledger sign-off on final M1 parameters~~ | ~~M1 closure~~ | Ledger | ✅ RESOLVED 2026-04-08 |
+| OA amendments (6 items) | M2 closure, M5 | Statton | PENDING — decisions made, amendments not yet drafted |
+| Capitalization gap ($115K projected vs $200K target) | M3, M6 | Ledger, Maven | NEW — Ledger to confirm minimum viable cap with hard money leverage |
+| Electrician recruitment | M4 closure, M8/M9 | Calloway | IN PROGRESS — 3 leads identified |
 | M2 (entity formation) | M5, M6 | Statton | IN PROGRESS |
 | M3 (financial foundation) | M5, M6 | Ledger | IN PROGRESS |
 
 ## Key Artifacts
+
+### M1 — Vision & Strategy (CLOSED)
 
 | Document | Location | Author |
 |----------|----------|--------|
@@ -70,14 +79,77 @@
 | Capitalization Target | workspace/deliverables/m01-vision/capitalization-target.md | Ledger |
 | Business Model | workspace/deliverables/m01-vision/business-model.md | Ledger |
 | Operating Cost Model | workspace/deliverables/m01-vision/operating-cost-model.py | Ledger |
+| M1 CFO Sign-Off | workspace/deliverables/m01-vision/m1-signoff-ledger.md | Ledger |
+
+### M2 — Legal Formation (ACTIVE)
+
+| Document | Location | Author |
+|----------|----------|--------|
 | Entity Comparison Research | workspace/deliverables/m02-legal/entity-comparison-research.md | Statton |
+| Entity Recommendation (FINAL) | workspace/deliverables/m02-legal/entity-recommendation.md | Statton |
+| Operating Agreement (DRAFT) | workspace/deliverables/m02-legal/operating-agreement.md | Statton |
+| Articles of Organization (DRAFT) | workspace/deliverables/m02-legal/articles-of-organization.md | Statton |
+| **Member Agreement (NEW)** | workspace/deliverables/m02-legal/member-agreement.md | Statton |
+| **CCB Application Checklist (NEW)** | workspace/deliverables/m02-legal/ccb-application-checklist.md | Statton |
+| **Tax Structure Memo (NEW)** | workspace/deliverables/m02-legal/tax-structure-memo.md | Statton |
+| **OA Review Notes (NEW)** | workspace/deliverables/m02-legal/oa-review-notes.md | Statton |
+| **OA Amendment Decisions (NEW)** | workspace/deliverables/m02-legal/oa-amendment-decisions.md | Maven |
 | CCB Licensing Requirements | workspace/deliverables/m02-legal/research/ccb-licensing-requirements.md | Statton |
 | Worker Classification Analysis | workspace/deliverables/m02-legal/research/worker-classification-analysis.md | Statton |
+
+### M3 — Financial Foundation (ACTIVE)
+
+| Document | Location | Author |
+|----------|----------|--------|
+| Capital Structure | workspace/deliverables/m03-financial/capital-structure.md | Ledger |
+| Profit Split Model | workspace/deliverables/m03-financial/profit-split-model.md | Ledger |
+| Break-Even Analysis | workspace/deliverables/m03-financial/break-even-analysis.md + .py | Ledger |
+| Cash Flow Template | workspace/deliverables/m03-financial/cash-flow-template.py | Ledger |
+| Labor Tracking Template | workspace/deliverables/m03-financial/labor-tracking-template.md | Ledger |
+| Member Capital Ledger | workspace/deliverables/m03-financial/member-capital-ledger.md | Ledger |
+| **OA Financial Cross-Check (NEW)** | workspace/deliverables/m03-financial/oa-financial-crosscheck.md | Ledger |
+| **Member Financial Guide (NEW)** | workspace/deliverables/m03-financial/member-financial-guide.md | Ledger |
+
+### M4 — Member Recruitment (ACTIVE)
+
+| Document | Location | Author |
+|----------|----------|--------|
+| Recruitment Brief | workspace/deliverables/m04-recruitment/recruitment-brief.md | Calloway |
+| Pitch Framework | workspace/deliverables/m04-recruitment/pitch-framework.md | Calloway |
+| Pitch Deck | workspace/deliverables/m04-recruitment/pitch-deck.md | Calloway |
+| Outreach Plan | workspace/deliverables/m04-recruitment/outreach-plan.md | Calloway |
+| Vetting Criteria | workspace/deliverables/m04-recruitment/vetting-criteria.md | Calloway |
+| Vetting Checklist | workspace/deliverables/m04-recruitment/vetting-checklist.md | Calloway |
+| Skills Matrix | workspace/deliverables/m04-recruitment/skills-matrix.md | Calloway |
+| Member Application | workspace/deliverables/m04-recruitment/member-application.md | Calloway |
+| Onboarding Guide | workspace/deliverables/m04-recruitment/onboarding-guide.md | Calloway |
+| Candidate: Birch | workspace/deliverables/m04-recruitment/candidate-birch.md | Calloway |
+| Candidate: Slate | workspace/deliverables/m04-recruitment/candidate-slate.md | Calloway |
+| Candidate: Copper | workspace/deliverables/m04-recruitment/candidate-copper.md | Calloway |
+| **Interview: Birch (NEW)** | workspace/deliverables/m04-recruitment/interview-birch.md | Calloway |
+| **Interview: Slate (NEW)** | workspace/deliverables/m04-recruitment/interview-slate.md | Calloway |
+| **Interview: Copper (NEW)** | workspace/deliverables/m04-recruitment/interview-copper.md | Calloway |
+| **Electrician Search (NEW)** | workspace/deliverables/m04-recruitment/candidate-electrician-search.md | Calloway |
+| **Founding Cohort Status (NEW)** | workspace/deliverables/m04-recruitment/founding-cohort-status.md | Calloway |
+| **Candidate Info Packet (NEW)** | workspace/deliverables/m04-recruitment/candidate-info-packet.md | Calloway |
+
+### M6 — Property Search (STANDBY)
+
+| Document | Location | Author |
+|----------|----------|--------|
 | Market Overview | workspace/deliverables/m06-property-search/market-overview.md | Reeves |
 | Neighborhood Scores | workspace/deliverables/m06-property-search/neighborhood-scores.md | Reeves |
 | Candidate Properties | workspace/deliverables/m06-property-search/candidate-properties.md | Reeves |
-| Recruitment Brief | workspace/deliverables/m04-recruitment/recruitment-brief.md | Calloway |
-| Pitch Framework | workspace/deliverables/m04-recruitment/pitch-framework.md | Calloway |
-| Deal Scorer Tool | tools/deal-scorer/ | Reeves |
-| Comp Analyzer Tool | tools/comp-analyzer/ | Reeves |
-| ARV Calculator Tool | tools/arv-calculator/ | Reeves |
+| Deal Analysis Template | workspace/deliverables/m06-property-search/deal-analysis-template.md | Reeves |
+
+### Tools
+
+| Tool | Location | Author |
+|------|----------|--------|
+| Deal Scorer | tools/deal-scorer/ | Reeves |
+| Comp Analyzer | tools/comp-analyzer/ | Reeves |
+| ARV Calculator | tools/arv-calculator/ | Reeves |
+| Rehab Estimator | tools/rehab-estimator/ | Reeves |
+| Profit Splitter | tools/profit-splitter/ | Ledger |
+| **Advance Tracker (NEW)** | tools/advance-tracker/ | Ledger |
+| **Labor Tracker (NEW)** | tools/labor-tracker/ | Ledger |
