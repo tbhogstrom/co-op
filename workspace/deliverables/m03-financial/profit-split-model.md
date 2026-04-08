@@ -78,7 +78,7 @@ not a dollar amount per hour.
 | Plumbing | 1.3x | Licensed trade, high market rate |
 | Electrical | 1.3x | Licensed trade, code compliance critical |
 | HVAC | 1.3x | Licensed trade |
-| Project Management | 1.1x | Coordination value, not physical trade rate |
+| Project Management | 1.15x | Coordination value, not physical trade rate |
 | Operations / Admin | 1.0x | Non-trade hours (Maven, Ledger equiv.) |
 
 ### How Weighting Works
@@ -87,18 +87,18 @@ not a dollar amount per hour.
 Member A: 400 hours × 1.2 (carpentry) = 480 weighted hours
 Member B: 350 hours × 1.3 (plumbing)  = 455 weighted hours
 Member C: 500 hours × 1.0 (labor)     = 500 weighted hours
-Member D: 200 hours × 1.1 (PM)        = 220 weighted hours
+Member D: 200 hours × 1.15 (PM)       = 230 weighted hours
 Member E: 300 hours × 1.2 (roofing)   = 360 weighted hours
 Member F: 150 hours × 1.0 (painting)  = 150 weighted hours
                                         ─────
-Total Weighted Hours:                   2,165
+Total Weighted Hours:                   2,175
 
-Member A's labor share: 480/2,165 = 22.2%
-Member B's labor share: 455/2,165 = 21.0%
-Member C's labor share: 500/2,165 = 23.1%  ← Most hours, highest share despite 1.0x multiplier
-Member D's labor share: 220/2,165 = 10.2%
-Member E's labor share: 360/2,165 = 16.6%
-Member F's labor share: 150/2,165 =  6.9%
+Member A's labor share: 480/2,175 = 22.1%
+Member B's labor share: 455/2,175 = 20.9%
+Member C's labor share: 500/2,175 = 23.0%  ← Most hours, highest share despite 1.0x multiplier
+Member D's labor share: 230/2,175 = 10.6%
+Member E's labor share: 360/2,175 = 16.6%
+Member F's labor share: 150/2,175 =  6.9%
 ```
 
 ### Mixed-Trade Hours
@@ -142,7 +142,7 @@ Member A max advance:                  50% × $2,726 = $1,363
 5. **Deducted at distribution.** Total advances are subtracted from the member's final labor share.
 6. **Clawback provision.** If the flip's actual labor share is less than total advances drawn:
    - Difference is deducted from the member's capital account
-   - If capital account insufficient, member has 90 days to repay
+   - If capital account insufficient, member has 60 days to repay
    - Remaining balance becomes a receivable on the co-op's books
 
 ### Advance Tracking (see `advance-tracker.py` in tools/profit-splitter/)

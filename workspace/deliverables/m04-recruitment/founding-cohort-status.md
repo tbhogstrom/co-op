@@ -185,6 +185,67 @@ We are on track. The cohort is forming.
 
 ---
 
+---
+
+## 7. Week 2 Action Items (Target: April 15, 2026)
+
+### Electrician Outreach
+
+| # | Action | Owner | Due | Dependencies |
+|---|--------|-------|-----|--------------|
+| 1 | Confirm Harlan has made warm introduction to Volt | Calloway | April 11 | Harlan availability |
+| 2 | Confirm Copper has made warm introduction to Wren | Calloway | April 11 | Copper availability |
+| 3 | First outreach call to Volt | Calloway | April 14-16 | Harlan intro complete |
+| 4 | First outreach call to Wren | Calloway | April 14-16 | Copper intro complete |
+| 5 | Log call outcomes and update candidate-electrician-search.md | Calloway | April 17 | Calls completed |
+| 6 | If interest >= 3 on either call, send candidate-info-packet.md | Calloway | Within 24 hrs of call | Call completed |
+
+**Outreach materials:** electrician-outreach-script.md is complete and ready for use.
+
+### Slate — Closing Sequence
+
+| # | Action | Owner | Due | Dependencies |
+|---|--------|-------|-----|--------------|
+| 7 | Send slate-terms-summary.md to Slate | Calloway | April 9 | Complete |
+| 8 | Follow up with Slate after he reviews terms summary | Calloway | April 14-15 | Slate review time |
+| 9 | Get amended OA from Statton (exit/buyout language finalized) | Statton | April 18 | OA amendments in progress |
+| 10 | Share final OA with Slate once amendments are complete | Calloway | April 22 (target) | Statton delivers amended OA |
+
+### Birch — EPA RRP Renewal
+
+| # | Action | Owner | Due | Dependencies |
+|---|--------|-------|-----|--------------|
+| 11 | Confirm Birch has initiated EPA RRP renewal process | Calloway | April 15 | Birch self-directed |
+| 12 | Provide NW Environmental Training Center schedule and contact info if needed | Calloway | April 15 | Birch request |
+
+### Copper — Hold Warm
+
+| # | Action | Owner | Due | Dependencies |
+|---|--------|-------|-----|--------------|
+| 13 | Check in with Copper — confirm continued interest, answer any questions | Calloway | April 15 | None |
+| 14 | Confirm Copper's introduction to Wren is complete | Calloway | April 11 | Same as #2 |
+
+### Cross-Functional Dependencies
+
+| # | Action | Owner | Due | Why |
+|---|--------|-------|-----|-----|
+| 15 | Confirm minimum capitalization with hard money leverage — is $115K workable? | Ledger | April 15 | Drives buy-in conversation with all candidates |
+| 16 | Deliver amended Operating Agreement | Statton | April 18 | Slate is waiting; electrician candidates will need it too |
+| 17 | Confirm permit-pulling scope for journeyman plumber license under CCB | Statton | April 15 | Copper's membership pathway |
+| 18 | Review and approve interview reports for Birch, Slate, Copper | Maven | April 15 | Unblocks formal vetting advancement |
+| 19 | Greenlight founders' meeting for week 4 (April 29) | Maven | April 15 | Calendar hold needed now |
+
+### Week 2 Success Criteria
+
+- [ ] At least one substantive call completed with Volt or Wren
+- [ ] Slate has received terms summary and had time to review
+- [ ] Birch EPA RRP renewal confirmed in progress
+- [ ] Copper warm and engaged
+- [ ] Maven has approved interview reports
+- [ ] Founders' meeting date confirmed for April 29
+
+---
+
 **Calloway**  
 2026-04-08
 
