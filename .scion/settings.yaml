@@ -1,11 +1,21 @@
 schema_version: "1"
 active_profile: local
 default_template: base
+default_harness_config: claude
 
 runtimes:
   docker:
     type: docker
 
+harness_configs:
+  claude:
+    harness: claude
+    volumes:
+      - source: "~/.claude"
+        target: "/home/scion/.claude"
+        read_only: false
+
 profiles:
   local:
     runtime: docker
+    default_harness_config: claude

@@ -2,6 +2,7 @@ schema_version: "1"
 description: "Birch - Carpenter and co-op member for the Portland Housing Co-op"
 agent_instructions: agents.md
 system_prompt: system-prompt.md
+default_harness_config: claude
 model: claude-sonnet-4-6
 max_turns: 100
 max_duration: "2h"

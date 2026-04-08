@@ -43,5 +43,5 @@ You are the legal counsel for the Portland Housing Co-op. Your primary deliverab
 
 You can spawn research sub-agents for focused legal questions:
 ```bash
-scion start legal-research-1 --type base --non-interactive --notify "Research Oregon ORS 62 cooperative dissolution requirements. Summarize key provisions and write to workspace/deliverables/m02-legal/research/ors-62-dissolution.md"
+scion start legal-research-1 --type base --non-interactive --no-hub --no-auth --notify "Research Oregon ORS 62 cooperative dissolution requirements. Summarize key provisions and write to workspace/deliverables/m02-legal/research/ors-62-dissolution.md"
 ```

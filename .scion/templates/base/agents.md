@@ -22,15 +22,16 @@ You are a member of a multi-agent team simulating the founding and operation of 
 ### Scion CLI Quick Reference
 
 ```bash
-scion list --non-interactive --format json    # See active agents
-scion msg <name> "message" --non-interactive  # Direct message
-scion msg -b "message" --non-interactive      # Broadcast to all
-scion look <name>                             # Check agent's recent output
-scion start <name> --type <template> --non-interactive --notify "task"  # Spawn sub-agent
+scion list --non-interactive --no-hub --format json    # See active agents
+scion msg <name> "message" --non-interactive --no-hub  # Direct message
+scion msg -b "message" --non-interactive --no-hub      # Broadcast to all
+scion look <name> --no-hub                             # Check agent's recent output
+scion start <name> --type <template> --non-interactive --no-hub --no-auth --notify "task"  # Spawn sub-agent
 ```
 
 **CRITICAL RULES:**
-- ALWAYS use `--non-interactive` with scion CLI commands
+- ALWAYS use `--non-interactive --no-hub --no-auth` with scion start commands
+- ALWAYS use `--non-interactive --no-hub` with scion list, msg, and look commands
 - Do NOT use `scion sync` or `scion cdw`
 - Do NOT resume agents you did not stop
 - Produce REAL deliverables — full legal text, working Python scripts, actual financial models
