@@ -433,3 +433,52 @@ class PortlandMapsLookup:
                 "Parkrose Neighborhood Assoc.",
             ]),
         )
+
+
+# ---------------------------------------------------------------------------
+# Real data integration — factory functions
+# ---------------------------------------------------------------------------
+
+import sys as _sys
+from pathlib import Path as _Path
+
+# Add data-pipeline to path for loader imports
+_pipeline_path = str(_Path(__file__).resolve().parent.parent / "data-pipeline")
+if _pipeline_path not in _sys.path:
+    _sys.path.insert(0, _pipeline_path)
+
+_DATA_DIR = _Path(__file__).resolve().parent.parent.parent / "data"
+_COMP_SALES_DIR = _DATA_DIR / "comp-sales"
+
+
+def _has_real_data() -> bool:
+    """Check if real comp data files exist."""
+    if not _COMP_SALES_DIR.exists():
+        return False
+    return any(_COMP_SALES_DIR.glob("*-comps.json"))
+
+
+def get_comp_loader():
+    """Return RealCompLoader if real data exists, else SyntheticMLSGenerator."""
+    if _has_real_data():
+        from loaders.real_comp_loader import RealCompLoader
+        return RealCompLoader()
+    return SyntheticMLSGenerator()
+
+
+def get_assessor():
+    """Return AssessorLoader if real data exists, else MultnomahAssessor stub."""
+    assessor_dir = _DATA_DIR / "assessor" / "multnomah-by-neighborhood"
+    if assessor_dir.exists() and any(assessor_dir.glob("*.json")):
+        from loaders.assessor_loader import AssessorLoader
+        return AssessorLoader()
+    return MultnomahAssessor()
+
+
+def get_portlandmaps():
+    """Return PortlandMapsLookupLoader if cache exists, else stub."""
+    pm_dir = _DATA_DIR / "portlandmaps"
+    if pm_dir.exists():
+        from loaders.portlandmaps_lookup import PortlandMapsLookupLoader
+        return PortlandMapsLookupLoader()
+    return PortlandMapsLookup()

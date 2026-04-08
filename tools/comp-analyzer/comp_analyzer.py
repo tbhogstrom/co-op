@@ -37,9 +37,9 @@ from typing import Any, Dict, List, Optional
 
 from data_sources import (
     CompSale,
-    SyntheticMLSGenerator,
-    MultnomahAssessor,
-    PortlandMapsLookup,
+    get_comp_loader,
+    get_assessor,
+    get_portlandmaps,
 )
 
 # ---------------------------------------------------------------------------
@@ -255,16 +255,28 @@ def run_analysis(
     3. Rank by relevance and return the top *comp_count*.
     4. Calculate summary statistics (indicated value range, mean, median).
     """
-    generator = SyntheticMLSGenerator(seed=seed)
-    raw_comps = generator.generate_comps(
-        neighborhood=subject.neighborhood,
-        sqft_target=subject.sqft,
-        beds=subject.beds,
-        baths=subject.baths,
-        radius_miles=radius_miles,
-        months_back=12,
-        count=generate_count,
-    )
+    loader = get_comp_loader()
+    # Use load_comps if RealCompLoader, generate_comps if Synthetic
+    if hasattr(loader, 'load_comps'):
+        raw_comps = loader.load_comps(
+            neighborhood=subject.neighborhood,
+            sqft_target=subject.sqft,
+            beds=subject.beds,
+            baths=subject.baths,
+            radius_miles=radius_miles,
+            months_back=12,
+            count=generate_count,
+        )
+    else:
+        raw_comps = loader.generate_comps(
+            neighborhood=subject.neighborhood,
+            sqft_target=subject.sqft,
+            beds=subject.beds,
+            baths=subject.baths,
+            radius_miles=radius_miles,
+            months_back=12,
+            count=generate_count,
+        )
 
     # Adjust each comp
     adjusted: List[AdjustedComp] = [
@@ -286,8 +298,8 @@ def run_analysis(
         median_price = (sorted_prices[mid - 1] + sorted_prices[mid]) / 2
 
     # Assessor and PortlandMaps lookups
-    assessor = MultnomahAssessor().lookup(subject.address)
-    portmaps = PortlandMapsLookup().lookup(subject.address)
+    assessor = get_assessor().lookup(subject.address)
+    portmaps = get_portlandmaps().lookup(subject.address)
 
     result: Dict[str, Any] = {
         "analysis_date": date.today().isoformat(),
