@@ -1,8 +1,9 @@
 # Candidate Profile — Slate
 
-**Status:** DRAFT — Preliminary profile. Pending M1 vision approval before finalizing.  
+**Status:** ACTIVE — M1 decisions incorporated. Advancing to formal vetting.  
 **Trade:** Roofing  
 **Profile date:** 2026-04-07  
+**Updated:** 2026-04-08  
 **Prepared by:** Calloway
 
 ---
@@ -31,7 +32,17 @@
 | **CCB Complaints on file** | None |
 | **Oregon Secretary of State** | Slate Roofing Co. — Active sole proprietorship |
 
-**Verification note:** CCB expiration is within the year. Confirm renewal is on track. Flag as item to monitor — a lapsed license during a project is a compliance problem.
+**Verification note:** CCB expiration is within the year — end of 2026. Confirm renewal is on track. **Flag as item to monitor** — a lapsed license during a project is a compliance problem.
+
+### EPA RRP Certification
+
+| Field | Detail |
+|-------|--------|
+| **EPA RRP Certified** | *To be confirmed in vetting — mandatory for all members* |
+| **Certification #** | Pending verification |
+| **Expiration** | Pending verification |
+
+**Note:** EPA RRP certification is a hard requirement per Statton's CCB research and Maven's M1 decisions. Slate works almost exclusively on pre-1978 Portland homes. Any roofer working on older Portland housing stock and not holding RRP certification is running a significant liability exposure. Either he has it and hasn't mentioned it, or this is a gap to address immediately. First call priority.
 
 ---
 
@@ -143,20 +154,33 @@ Note: Homeowner reference — confirms professionalism, communication, and quali
 
 ## 8. Buy-In Capacity Assessment
 
-*Preliminary estimate — Buy-in amount TBD from Ledger (M3)*
+**M1 buy-in tiers (approved):**
+- Tier A: $25,000–$50,000 (Full Share)
+- Tier B: $10,000–$24,999 (Working Share)
+- Tier C: $5,000 (Sweat Equity Entry)
 
-Slate runs 20-35 residential jobs per year as a sole proprietor. Average roof is $8,000–$14,000. Estimating 25 jobs/year at $10,000 average = $250,000 gross revenue. After materials and labor (one part-time helper), net income likely $80,000–$120,000. Buy-in capacity is likely $8,000–$15,000.
+Slate runs 20-35 residential jobs/year. Revenue ~$250K gross; net income after materials and one part-time helper: $80,000–$120,000. Buy-in capacity: **Tier C ($5,000) comfortably; Tier B ($10,000–$15,000) achievable; higher Tier B unlikely without discomfort.** No payment plans for founding members per M1.
 
-**Recommendation:** Slate has the financial capacity for a reasonable buy-in but will be very deliberate about committing capital. Make sure the equity buyout / exit terms are clean and documented (per Statton) before pitching him.
+**Projected first-flip return (illustrative, Tier C at $5K):**
+- A roofer typically contributes 80–120 hours to a rehab (tear-off, re-roof, gutters)
+- Labor share at 100 hours × 1.1x = 110 weighted hours = ~5.5% of a 2,000-hr pool
+- Labor share: 5.5% × $16,300 = ~$897
+- Capital share: 2.5% × $12,225 = ~$306
+- Total distribution: **~$1,203** conservative
+- ROI on $5K: **~24%** — strong on a small capital investment; labor is limited by roofing hours
+
+**Note:** Slate's labor contribution per project is smaller than carpentry or plumbing by nature (roofing is faster). He will earn more per hour than his distribution implies — 100 hours of roofing at a Tier C buy-in is a 24% return. If he participates in demo, general labor, or other project phases beyond roofing, his labor share grows.
+
+**Recommendation:** Lead with the percentage return, not the dollar amount. 24% on $5K is excellent. Also: make sure Statton's exit and buyout terms are clean before this conversation — Slate will ask.
 
 ---
 
 ## 9. Recommended Status
 
-**Recommend: ADVANCE TO FORMAL INTERVIEW**
+**Recommend: ADVANCE TO FORMAL VETTING AND INTERVIEW**
 
-With a note: don't pitch Slate with just enthusiasm. Come with numbers and legal clarity. He'll respect that more than vision language. Get me M3 and at least a draft of M2 before I sit down with him formally.
+M1 numbers are in. Lead the conversation with the financial model and the governance structure — not just the mission. Slate is a numbers-and-accountability person. He needs to see: (1) real pro forma, (2) how the exit works, (3) who decides what. Answer those three and he'll engage. Also: confirm EPA RRP status in the first five minutes. If he doesn't have it, that's the conversation.
 
 ---
 
-*Profile to be finalized and expanded after M1 (vision), M2 (legal), M3 (financial) deliver their outputs.*
+*Profile updated 2026-04-08 with M1 approved decisions. Ready for Maven review.*
