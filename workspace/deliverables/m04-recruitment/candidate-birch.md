@@ -1,8 +1,9 @@
 # Candidate Profile — Birch
 
-**Status:** DRAFT — Preliminary profile. Pending M1 vision approval before finalizing.  
+**Status:** ACTIVE — M1 decisions incorporated. Advancing to formal vetting.  
 **Trade:** Carpenter  
 **Profile date:** 2026-04-07  
+**Updated:** 2026-04-08  
 **Prepared by:** Calloway
 
 ---
@@ -33,6 +34,16 @@
 
 **Verification note:** CCB status to be confirmed via [Oregon CCB licensee search](https://www.oregon.gov/ccb/Pages/find_licensed_contractor.aspx) prior to formal offer of membership.
 
+### EPA RRP Certification
+
+| Field | Detail |
+|-------|--------|
+| **EPA RRP Certified** | *To be confirmed in vetting — mandatory for all members* |
+| **Certification #** | Pending verification |
+| **Expiration** | Pending verification |
+
+**Note:** EPA RRP certification is a hard requirement per Statton's CCB research and Maven's M1 decisions. Portland's housing stock is predominantly pre-1978. Birch has worked on pre-1960 homes for 7+ years — it is likely he has or has had this certification. Confirm in first call.
+
 ---
 
 ## 3. Insurance
@@ -43,7 +54,7 @@
 | Workers' Compensation | Exempt (sole owner-operator) — must add coverage if co-op employs workers | — |
 | Tools & Equipment | $25,000 | Oregon Contractors Insurance Group |
 
-**Note:** Workers' comp status changes when operating under a co-op employment relationship. Need guidance from Statton on member classification (employee vs. independent contractor vs. working member).
+**Note:** Workers' comp status changes when operating under a co-op structure. Per Maven's M1 decision, members are structured as **independent contractor-members** (not employees). Statton has confirmed this in the worker classification analysis — Birch retains his existing sole proprietor exempt status for his own business; co-op work is performed as an independent contractor-member under his own CCB license.
 
 ---
 
@@ -141,20 +152,29 @@ Note: Character reference from within the trades community. Good for co-op cultu
 
 ## 8. Buy-In Capacity Assessment
 
-*Preliminary estimate — Buy-in amount TBD from Ledger (M3)*
+**M1 buy-in tiers (approved):**
+- Tier A: $25,000–$50,000 (Full Share)
+- Tier B: $10,000–$24,999 (Working Share)
+- Tier C: $5,000 (Sweat Equity Entry)
 
-Birch runs a small LLC with 2-3 projects/year. Revenue estimated (from reference conversations) in the $120,000–160,000/year range as a self-employed carpenter. Buy-in capacity is likely $5,000–$12,000 without hardship, potentially more with a payment plan.
+Birch runs a small LLC with 2-3 projects/year at $120,000–$160,000 gross revenue. Net income likely $70,000–$100,000 after materials and overhead. Buy-in capacity: **Tier C ($5,000) comfortably; Tier B ($10,000–$15,000) achievable.** No payment plans for founding members (per M1 decision) — but $10K–$15K is within reach without hardship for someone at this income level.
 
-**Recommendation:** If buy-in lands above $12,000, discuss structured payment over 12-24 months. Don't lose a good member to a cash flow timing problem.
+**Projected first-flip return (illustrative, Tier B at $15K):**
+- Capital share: 7.5% × $12,225 = ~$917
+- Labor share (estimated 250 hours × 1.1x = 11.4% of pool): ~$1,860
+- Total distribution: ~$2,777 on a conservative flip
+- ROI on $15K buy-in: ~18.5% (plus capital account retained for next flip)
+
+**Recommendation:** Present Tier B as the natural fit. If he wants Tier C to start, that's fine — labor will be his wealth builder and at 250 hours on a rehab he'll earn a solid return regardless.
 
 ---
 
 ## 9. Recommended Status
 
-**Recommend: ADVANCE TO FORMAL INTERVIEW**
+**Recommend: ADVANCE TO FORMAL VETTING AND INTERVIEW**
 
-Pending Maven approval and M1 vision delivery. I want to have a conversation with Birch before the pitch deck is finalized — his read on what would make him say yes or no is valuable recruiting intelligence.
+M1 decisions are in. Numbers are real. I want to have the formal conversation with Birch this week. Lead with: the EPA RRP requirement (confirm status), the one-member-one-vote governance, and the buy-in. Get his questions out early — he'll have good ones.
 
 ---
 
-*Profile to be finalized and expanded after M1 (vision), M2 (legal), M3 (financial) deliver their outputs.*
+*Profile updated 2026-04-08 with M1 approved decisions. Ready for Maven review.*

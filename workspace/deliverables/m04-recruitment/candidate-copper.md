@@ -1,8 +1,9 @@
 # Candidate Profile — Copper
 
-**Status:** DRAFT — Preliminary profile. Pending M1 vision approval before finalizing.  
+**Status:** ACTIVE — M1 decisions incorporated. Advancing to formal vetting.  
 **Trade:** Plumbing  
 **Profile date:** 2026-04-07  
+**Updated:** 2026-04-08  
 **Prepared by:** Calloway
 
 ---
@@ -35,9 +36,19 @@
 | **CCB Complaints on file** | None |
 | **Oregon Secretary of State** | Copper Plumbing LLC — Active, registered 2016 |
 
-**Verification note:** Both CCB license and Oregon plumbing license to be verified. Note that Copper holds a *journeyman* license, not a *master plumber* license. For contracting work he can operate under his CCB, but for permit-pulling on larger projects, need to confirm he can pull permits as a licensed contractor (Oregon allows this under CCB + journeyman in some circumstances — verify with Statton or Oregon BCD). This is a compliance detail worth clarifying before we put him on a job.
+**Verification note:** Both CCB license and Oregon plumbing license to be verified. Note that Copper holds a *journeyman* license, not a *master plumber* license. For contracting work he operates under his CCB, but permit-pulling on larger projects requires clarification — Oregon allows this under CCB + journeyman in some circumstances; verify with Statton or Oregon BCD before first project assignment.
 
-**Update needed:** If Copper is close to master plumber status, that's a significant upgrade worth encouraging. Will ask in the interview.
+**Priority action:** Ask Copper in the first interview whether he has pursued master plumber status. If he's close (needs a test), the co-op should support that — a master plumber on the founding team is a significant asset for permit-pulling and future project independence.
+
+### EPA RRP Certification
+
+| Field | Detail |
+|-------|--------|
+| **EPA RRP Certified** | *To be confirmed in vetting — mandatory for all members* |
+| **Certification #** | Pending verification |
+| **Expiration** | Pending verification |
+
+**Note:** EPA RRP certification is a hard requirement per Maven's M1 decisions. Copper has been working exclusively on pre-1978 Portland homes for 10 years. It would be highly unusual for him not to hold EPA RRP certification — but it must be confirmed and documented. Verify in first call.
 
 ---
 
@@ -151,22 +162,33 @@ Note: Character reference from within Local 290. Will speak to Copper's professi
 
 ## 8. Buy-In Capacity Assessment
 
-*Preliminary estimate — Buy-in amount TBD from Ledger (M3)*
+**M1 buy-in tiers (approved):**
+- Tier A: $25,000–$50,000 (Full Share)
+- Tier B: $10,000–$24,999 (Working Share)
+- Tier C: $5,000 (Sweat Equity Entry)
 
-Copper has run Copper Plumbing LLC for 10 years. Residential re-pipe (full house) at $5,000–$10,000 each, plus additional fixture and drain work. Estimating 40-50 projects/year with average project value around $7,000 = approximately $280,000–$350,000 gross revenue. Net income likely $100,000–$140,000 after materials and some subcontracted work. 
+Copper has run Copper Plumbing LLC for 10 years. 40-50 jobs/year at average ~$7,000/job = ~$280,000–$350,000 gross. Net income after materials and some subcontracted dig work: $100,000–$140,000. This is the strongest financial profile of the three founding trade candidates.
 
-Buy-in capacity: likely $12,000–$20,000 without significant hardship.
+Buy-in capacity: **Tier B ($15,000–$25,000) comfortably; Tier A ($25,000–$30,000) likely possible.** No payment plans for founding members per M1 decision.
 
-**Recommendation:** Copper has the strongest buy-in capacity of the initial three candidates. Consider offering a founding member designation that acknowledges larger capital contributors — but be careful not to create a two-tier membership structure that undermines the co-op ethos. Ledger and Statton need to weigh in on how to structure buy-in tiers fairly.
+**Projected first-flip return (illustrative, Tier B at $25K — Ledger's published example):**
+- Capital share: 12.5% × $12,225 = $1,528
+- Labor share (350 hours × 1.2x = 21% of pool): $3,423
+- **Total distribution: $4,951**
+- **ROI on $25K: 19.8%** — exactly the example Maven cited in M1 decisions
+
+**Note:** Copper's plumbing scope on a full re-pipe + fixture project can easily be 300–400 hours. His labor share is proportionally the largest of the founding trades crew. His ROI picture is excellent.
+
+**Recommendation:** Copper is Tier B natural. If he wants to put in Tier A, that's fine — co-op governance remains one-member-one-vote regardless of capital tier, per M1 decision. Lead with that: "Your $25K doesn't buy you extra votes. It just buys you a larger capital share. Labor is where you build wealth here."
 
 ---
 
 ## 9. Recommended Status
 
-**Recommend: ADVANCE TO FORMAL INTERVIEW**
+**Recommend: ADVANCE TO FORMAL VETTING AND INTERVIEW — PRIORITY**
 
-Priority candidate. If the co-op has to recruit one founding member before anyone else, it's Copper. His experience, his union background, and his Portland roots make him the strongest single candidate. Schedule his interview alongside Birch's — I want these two to meet before either of them gives a final answer.
+Copper is the strongest single candidate in the founding cohort. Schedule his interview alongside Birch's if possible — I want these two to meet before either gives a final answer. Copper's union background means the co-op model will click fast. The questions to address: (1) master plumber status / permit-pulling clarity, (2) EPA RRP verification, (3) one-member-one-vote governance regardless of buy-in size. Get those answered cleanly and he's in.
 
 ---
 
-*Profile to be finalized and expanded after M1 (vision), M2 (legal), M3 (financial) deliver their outputs.*
+*Profile updated 2026-04-08 with M1 approved decisions. Ready for Maven review.*
