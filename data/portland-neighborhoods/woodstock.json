@@ -1,0 +1,55 @@
+{
+  "name": "Woodstock",
+  "quadrant": "SE",
+  "zip_codes": ["97206", "97202"],
+  "boundaries": {
+    "north": "SE Holgate Blvd",
+    "south": "SE Flavel St / Johnson Creek",
+    "east": "SE 52nd Ave",
+    "west": "SE 39th Ave (Cesar Chavez Blvd)"
+  },
+  "market_data": {
+    "median_home_price": 465000,
+    "median_price_per_sqft": 345,
+    "median_renovated_price_per_sqft": 385,
+    "price_change_1yr_pct": 3.5,
+    "price_change_3yr_pct": 13.8,
+    "avg_days_on_market": 16,
+    "active_listings": 18,
+    "distressed_listing_pct": 2.8,
+    "foreclosure_rate_pct": 0.4,
+    "months_of_inventory": 1.2
+  },
+  "demographics": {
+    "population": 9800,
+    "median_household_income": 72000,
+    "owner_occupied_pct": 62,
+    "renter_pct": 38
+  },
+  "characteristics": {
+    "housing_stock": "1920s-1940s bungalows and Craftsman homes, some mid-century ranches, established character with mature landscaping",
+    "typical_sqft_range": [1100, 1700],
+    "typical_lot_sqft": 5000,
+    "typical_beds": [2, 4],
+    "typical_year_built_range": [1920, 1950],
+    "transit_access": "Good — frequent bus on Woodstock Blvd, reasonably close to inner SE transit options",
+    "walkability_score": 74,
+    "school_rating_avg": 5.8,
+    "crime_trend": "Low and stable — one of the safer SE neighborhoods",
+    "development_pipeline": "Woodstock commercial district fully revitalized, some infill housing, Reed College area stable"
+  },
+  "investment_thesis": "Established and desirable SE neighborhood with proven track record. Higher entry point but very reliable resale market — homes sell fast and at asking or above. Best for conservative investors who want lower risk and dependable returns. The Woodstock commercial district (restaurants, shops, New Seasons) provides strong neighborhood amenity value. Fewer distressed properties available but those that appear tend to have strong ARV potential due to neighborhood desirability. Proximity to Reed College adds stability.",
+  "risk_factors": [
+    "High entry price limits margin — need to find genuine distressed deals",
+    "Very competitive market — off-market sourcing essential",
+    "Fewer distressed properties available compared to outer neighborhoods",
+    "Johnson Creek flood plain affects some parcels in southern portion",
+    "Higher renovation expectations from buyers in this price tier"
+  ],
+  "data_sources": [
+    "Multnomah County Assessor (public records)",
+    "PortlandMaps.com",
+    "Synthetic MLS data based on market knowledge"
+  ],
+  "last_updated": "2026-04-07"
+}

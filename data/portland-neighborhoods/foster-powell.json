@@ -1,0 +1,55 @@
+{
+  "name": "Foster-Powell",
+  "quadrant": "SE",
+  "zip_codes": ["97206"],
+  "boundaries": {
+    "north": "SE Powell Blvd",
+    "south": "SE Holgate Blvd",
+    "east": "SE 82nd Ave",
+    "west": "SE 52nd Ave"
+  },
+  "market_data": {
+    "median_home_price": 435000,
+    "median_price_per_sqft": 330,
+    "median_renovated_price_per_sqft": 365,
+    "price_change_1yr_pct": 4.8,
+    "price_change_3yr_pct": 17.2,
+    "avg_days_on_market": 18,
+    "active_listings": 22,
+    "distressed_listing_pct": 4.1,
+    "foreclosure_rate_pct": 0.6,
+    "months_of_inventory": 1.4
+  },
+  "demographics": {
+    "population": 8200,
+    "median_household_income": 62000,
+    "owner_occupied_pct": 58,
+    "renter_pct": 42
+  },
+  "characteristics": {
+    "housing_stock": "1920s-1940s bungalows and Craftsman cottages, some postwar ranches, increasing ADU and infill development",
+    "typical_sqft_range": [1000, 1600],
+    "typical_lot_sqft": 5000,
+    "typical_beds": [2, 3],
+    "typical_year_built_range": [1920, 1945],
+    "transit_access": "Good — frequent bus on Foster and Powell, close to future transit improvements on 82nd",
+    "walkability_score": 72,
+    "school_rating_avg": 5.1,
+    "crime_trend": "Improving — down 12% YoY, significant quality of life improvements on Foster corridor",
+    "development_pipeline": "Foster Rd streetscape improvements complete, new restaurants and shops on Foster, continued infill housing"
+  },
+  "investment_thesis": "Rapid gentrification along Foster Rd corridor has transformed this neighborhood. Higher entry point but strong demand and fast appreciation. Best suited for light-touch rehabs on the remaining unrenovated bungalows — the spread between unrenovated and renovated is significant. Walkability and restaurant/bar scene attract young professionals. Tighter margins than Lents or Cully but lower risk.",
+  "risk_factors": [
+    "Gentrification well underway — fewer deep discount opportunities remain",
+    "Higher entry price reduces margin on flips",
+    "Competition from other investors and owner-occupants",
+    "Some parcels near Powell Blvd have noise and traffic concerns",
+    "Market correction sensitivity — higher-priced areas may see larger corrections"
+  ],
+  "data_sources": [
+    "Multnomah County Assessor (public records)",
+    "PortlandMaps.com",
+    "Synthetic MLS data based on market knowledge"
+  ],
+  "last_updated": "2026-04-07"
+}

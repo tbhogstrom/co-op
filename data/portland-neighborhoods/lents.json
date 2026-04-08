@@ -1,0 +1,55 @@
+{
+  "name": "Lents",
+  "quadrant": "SE",
+  "zip_codes": ["97266"],
+  "boundaries": {
+    "north": "SE Powell Blvd",
+    "south": "SE Woodstock Blvd / city limits",
+    "east": "SE 111th Ave",
+    "west": "SE 82nd Ave"
+  },
+  "market_data": {
+    "median_home_price": 365000,
+    "median_price_per_sqft": 285,
+    "median_renovated_price_per_sqft": 310,
+    "price_change_1yr_pct": 3.2,
+    "price_change_3yr_pct": 12.5,
+    "avg_days_on_market": 28,
+    "active_listings": 45,
+    "distressed_listing_pct": 8.5,
+    "foreclosure_rate_pct": 1.2,
+    "months_of_inventory": 2.1
+  },
+  "demographics": {
+    "population": 20500,
+    "median_household_income": 52000,
+    "owner_occupied_pct": 55,
+    "renter_pct": 45
+  },
+  "characteristics": {
+    "housing_stock": "1940s-1960s ranches and bungalows, some newer infill",
+    "typical_sqft_range": [900, 1400],
+    "typical_lot_sqft": 5000,
+    "typical_beds": [2, 3],
+    "typical_year_built_range": [1940, 1965],
+    "transit_access": "Good — MAX Green Line at Lents/SE Foster station, frequent bus on 82nd Ave",
+    "walkability_score": 62,
+    "school_rating_avg": 4.5,
+    "crime_trend": "Improving — down 8% YoY",
+    "development_pipeline": "Lents Town Center redevelopment, new mixed-use on Foster Rd, Portland Parks improvements at Lents Park"
+  },
+  "investment_thesis": "Lowest entry point in inner SE Portland. Strong appreciation trend driven by Lents Town Center investment and proximity to MAX Green Line. Older housing stock means rehab opportunities are abundant. Increasing density with ADU-friendly lots. City investment signals long-term upside.",
+  "risk_factors": [
+    "Uneven block-by-block quality — some pockets still rough",
+    "Some environmental concerns near former industrial sites along 82nd",
+    "Higher property crime than metro average",
+    "82nd Ave corridor still transitioning despite city investment",
+    "Perception lag — buyers may undervalue despite real improvements"
+  ],
+  "data_sources": [
+    "Multnomah County Assessor (public records)",
+    "PortlandMaps.com",
+    "Synthetic MLS data based on market knowledge"
+  ],
+  "last_updated": "2026-04-07"
+}

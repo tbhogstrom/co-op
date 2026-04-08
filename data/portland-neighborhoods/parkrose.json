@@ -1,0 +1,56 @@
+{
+  "name": "Parkrose",
+  "quadrant": "NE",
+  "zip_codes": ["97220", "97230"],
+  "boundaries": {
+    "north": "NE Columbia Blvd / PDX airport area",
+    "south": "NE Sandy Blvd / I-84",
+    "east": "NE 148th Ave (approximate)",
+    "west": "NE 82nd Ave / NE Killingsworth"
+  },
+  "market_data": {
+    "median_home_price": 340000,
+    "median_price_per_sqft": 265,
+    "median_renovated_price_per_sqft": 295,
+    "price_change_1yr_pct": 3.6,
+    "price_change_3yr_pct": 11.2,
+    "avg_days_on_market": 32,
+    "active_listings": 52,
+    "distressed_listing_pct": 10.2,
+    "foreclosure_rate_pct": 1.5,
+    "months_of_inventory": 2.6
+  },
+  "demographics": {
+    "population": 15800,
+    "median_household_income": 47500,
+    "owner_occupied_pct": 50,
+    "renter_pct": 50
+  },
+  "characteristics": {
+    "housing_stock": "1950s-1970s ranches and split-levels, some older bungalows, manufactured homes on eastern edge",
+    "typical_sqft_range": [950, 1400],
+    "typical_lot_sqft": 6000,
+    "typical_beds": [2, 3],
+    "typical_year_built_range": [1950, 1975],
+    "transit_access": "Moderate — MAX Blue/Red Line at Parkrose/Sumner TC, bus on Sandy and 82nd, but neighborhood is car-dependent",
+    "walkability_score": 42,
+    "school_rating_avg": 3.8,
+    "crime_trend": "Mixed — property crime stable, violent crime down 5% YoY",
+    "development_pipeline": "Parkrose town center planning underway, some commercial revitalization on Sandy Blvd, airport area industrial growth"
+  },
+  "investment_thesis": "Lowest entry point in Portland proper. Highest distressed property concentration creates volume opportunity for rehab investors. Larger lots compared to inner neighborhoods support ADU potential. Airport proximity is a double-edged sword — noise concern but employment access. The MAX station at Parkrose/Sumner TC provides transit connectivity that many outer neighborhoods lack. Best strategy is volume: buy multiple cheap distressed properties, do solid but not luxury rehabs, and sell to first-time buyers priced out of inner Portland.",
+  "risk_factors": [
+    "Airport noise on northern blocks — check flight path maps carefully",
+    "Lower school ratings may deter family buyers",
+    "Perception as 'outer Portland' limits buyer pool",
+    "Higher crime rates than inner neighborhoods",
+    "Longer days on market means carrying costs matter more",
+    "Some manufactured/mobile home parks complicate comparable analysis"
+  ],
+  "data_sources": [
+    "Multnomah County Assessor (public records)",
+    "PortlandMaps.com",
+    "Synthetic MLS data based on market knowledge"
+  ],
+  "last_updated": "2026-04-07"
+}

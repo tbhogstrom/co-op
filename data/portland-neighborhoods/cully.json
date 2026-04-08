@@ -1,0 +1,56 @@
+{
+  "name": "Cully",
+  "quadrant": "NE",
+  "zip_codes": ["97218", "97220"],
+  "boundaries": {
+    "north": "NE Columbia Blvd",
+    "south": "NE Prescott St",
+    "east": "NE 82nd Ave",
+    "west": "NE 42nd Ave"
+  },
+  "market_data": {
+    "median_home_price": 385000,
+    "median_price_per_sqft": 295,
+    "median_renovated_price_per_sqft": 325,
+    "price_change_1yr_pct": 4.1,
+    "price_change_3yr_pct": 14.8,
+    "avg_days_on_market": 25,
+    "active_listings": 38,
+    "distressed_listing_pct": 7.2,
+    "foreclosure_rate_pct": 1.0,
+    "months_of_inventory": 1.9
+  },
+  "demographics": {
+    "population": 13500,
+    "median_household_income": 49500,
+    "owner_occupied_pct": 52,
+    "renter_pct": 48
+  },
+  "characteristics": {
+    "housing_stock": "Mix of 1940s-1950s ranches, some postwar bungalows, increasing new construction and ADUs",
+    "typical_sqft_range": [950, 1500],
+    "typical_lot_sqft": 5500,
+    "typical_beds": [2, 3],
+    "typical_year_built_range": [1945, 1960],
+    "transit_access": "Moderate — frequent bus on 42nd and Cully Blvd, no MAX but planned improvements",
+    "walkability_score": 55,
+    "school_rating_avg": 4.2,
+    "crime_trend": "Stable — slight improvement, down 3% YoY",
+    "development_pipeline": "Cully Main Street Plan investment, Living Cully community development projects, new affordable housing on 42nd"
+  },
+  "investment_thesis": "Most diverse neighborhood in Portland with strong community investment through Living Cully coalition. Historically underinvested — meaning deferred maintenance and lower prices create rehab opportunity. Larger lot sizes support ADU additions. Rising steadily without the rapid gentrification pressure seen in closer-in neighborhoods. Good upside with lower displacement risk due to community land trust presence.",
+  "risk_factors": [
+    "Limited transit connectivity compared to inner neighborhoods",
+    "Some areas lack sidewalks and urban infrastructure",
+    "Environmental justice concerns — legacy industrial contamination in spots",
+    "Fewer commercial amenities than competing neighborhoods",
+    "Community pushback on rapid development — need culturally sensitive approach"
+  ],
+  "data_sources": [
+    "Multnomah County Assessor (public records)",
+    "PortlandMaps.com",
+    "Living Cully community data",
+    "Synthetic MLS data based on market knowledge"
+  ],
+  "last_updated": "2026-04-07"
+}

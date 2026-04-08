@@ -1,0 +1,55 @@
+{
+  "name": "Montavilla",
+  "quadrant": "SE",
+  "zip_codes": ["97216", "97233"],
+  "boundaries": {
+    "north": "NE/SE Glisan St",
+    "south": "SE Division St",
+    "east": "SE 82nd Ave",
+    "west": "SE 68th Ave (approximate)"
+  },
+  "market_data": {
+    "median_home_price": 400000,
+    "median_price_per_sqft": 305,
+    "median_renovated_price_per_sqft": 340,
+    "price_change_1yr_pct": 4.4,
+    "price_change_3yr_pct": 15.6,
+    "avg_days_on_market": 22,
+    "active_listings": 32,
+    "distressed_listing_pct": 6.3,
+    "foreclosure_rate_pct": 0.9,
+    "months_of_inventory": 1.8
+  },
+  "demographics": {
+    "population": 11200,
+    "median_household_income": 57500,
+    "owner_occupied_pct": 56,
+    "renter_pct": 44
+  },
+  "characteristics": {
+    "housing_stock": "1920s-1950s bungalows, Craftsman cottages, and ranches — mixed condition, some excellent blocks and some rough edges",
+    "typical_sqft_range": [1000, 1600],
+    "typical_lot_sqft": 5000,
+    "typical_beds": [2, 3],
+    "typical_year_built_range": [1925, 1955],
+    "transit_access": "Good — MAX Blue Line at 82nd Ave station, frequent bus on Stark/Washington, Division",
+    "walkability_score": 66,
+    "school_rating_avg": 4.8,
+    "crime_trend": "Improving — down 6% YoY, commercial district revitalization helping",
+    "development_pipeline": "Montavilla commercial district continued growth, 82nd Ave city ownership transition bringing investment, Academy Theater anchors cultural scene"
+  },
+  "investment_thesis": "Mixed neighborhood with excellent block-by-block upside. The Montavilla commercial district around SE Stark and 76th-80th has genuine charm (Academy Theater, restaurants, shops) and drives buyer interest. Properties within a few blocks of the commercial core command significant premiums over those near 82nd. Smart strategy is to buy unrenovated homes on good blocks near the core and renovate to match neighborhood comps. MAX Blue Line access at 82nd adds transit value. The 82nd Ave transfer to city jurisdiction is bringing infrastructure investment.",
+  "risk_factors": [
+    "Very block-dependent — some areas near 82nd still challenging",
+    "82nd Ave transition is positive long-term but construction disruption near-term",
+    "Mixed school quality",
+    "Some noise from Stark/Washington couplet traffic",
+    "Competition from savvy local investors who know the micro-markets"
+  ],
+  "data_sources": [
+    "Multnomah County Assessor (public records)",
+    "PortlandMaps.com",
+    "Synthetic MLS data based on market knowledge"
+  ],
+  "last_updated": "2026-04-07"
+}

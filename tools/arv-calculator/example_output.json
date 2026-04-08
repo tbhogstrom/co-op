@@ -1,0 +1,114 @@
+{
+  "subject_address": "7824 SE Woodstock Blvd, Portland, OR 97206",
+  "methods": [
+    {
+      "name": "comp_based",
+      "value": 380851.72,
+      "weight": 0.5,
+      "details": {
+        "comp_count": 5,
+        "comps": [
+          {
+            "address": "8012 SE Reedway St, Portland, OR 97206",
+            "sale_price": 385000,
+            "adjusted_price": 386657.22,
+            "weight": 0.943,
+            "adjustments": {
+              "sqft": -10850.0,
+              "bed_bath": 0,
+              "lot": 600.0,
+              "condition": 11907.22
+            }
+          },
+          {
+            "address": "5537 SE 72nd Ave, Portland, OR 97206",
+            "sale_price": 399000,
+            "adjusted_price": 372250.0,
+            "weight": 0.888,
+            "adjustments": {
+              "sqft": -20150.0,
+              "bed_bath": -6000.0,
+              "lot": -600.0,
+              "condition": 0.0
+            }
+          },
+          {
+            "address": "6248 SE Mall St, Portland, OR 97206",
+            "sale_price": 352000,
+            "adjusted_price": 383236.6,
+            "weight": 0.851,
+            "adjustments": {
+              "sqft": 10850.0,
+              "bed_bath": 8000,
+              "lot": 1500.0,
+              "condition": 10886.6
+            }
+          },
+          {
+            "address": "9115 SE Holgate Blvd, Portland, OR 97266",
+            "sale_price": 375000,
+            "adjusted_price": 377347.94,
+            "weight": 0.807,
+            "adjustments": {
+              "sqft": -7750.0,
+              "bed_bath": 0,
+              "lot": -1500.0,
+              "condition": 11597.94
+            }
+          },
+          {
+            "address": "4915 SE 82nd Ave, Portland, OR 97266",
+            "sale_price": 340000,
+            "adjusted_price": 384827.78,
+            "weight": 0.743,
+            "adjustments": {
+              "sqft": 4650.0,
+              "bed_bath": 0,
+              "lot": 2400.0,
+              "condition": 37777.78
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "price_per_sqft",
+      "value": 343500.0,
+      "weight": 0.3,
+      "details": {
+        "neighborhood_median_ppsf": 310,
+        "subject_sqft": 1050,
+        "base_value": 325500,
+        "lot_factor": 1.0,
+        "feature_bonus": 18000.0,
+        "feature_notes": {
+          "unfinished basement": 18000
+        }
+      }
+    },
+    {
+      "name": "percentage_of_improvement",
+      "value": 331250.0,
+      "weight": 0.2,
+      "details": {
+        "as_is_value": 245000,
+        "rehab_cost": 75000,
+        "neighborhood_tier": "moderate",
+        "market_multiplier": 1.15,
+        "formula": "245000 + 75000 * 1.15"
+      }
+    }
+  ],
+  "final_arv": 359500,
+  "confidence_level": "high",
+  "confidence_range": {
+    "low": 341500,
+    "mid": 359500,
+    "high": 377500
+  },
+  "rehab_cost": 75000,
+  "estimated_profit_at_70_rule": 177000,
+  "notes": [
+    "70% rule max offer: $177,000 (ARV $359,500 x 0.70 - rehab $75,000)"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "name": "St. Johns",
+  "quadrant": "N",
+  "zip_codes": ["97203"],
+  "boundaries": {
+    "north": "Columbia Slough / Smith and Bybee Wetlands",
+    "south": "N Lombard St (approximate)",
+    "east": "N Interstate Ave / railroad tracks",
+    "west": "Willamette River"
+  },
+  "market_data": {
+    "median_home_price": 410000,
+    "median_price_per_sqft": 310,
+    "median_renovated_price_per_sqft": 345,
+    "price_change_1yr_pct": 3.8,
+    "price_change_3yr_pct": 15.1,
+    "avg_days_on_market": 24,
+    "active_listings": 30,
+    "distressed_listing_pct": 5.8,
+    "foreclosure_rate_pct": 0.8,
+    "months_of_inventory": 1.7
+  },
+  "demographics": {
+    "population": 12800,
+    "median_household_income": 56000,
+    "owner_occupied_pct": 54,
+    "renter_pct": 46
+  },
+  "characteristics": {
+    "housing_stock": "1910s-1930s Craftsman bungalows and foursquares, some Victorians, postwar ranches on perimeter",
+    "typical_sqft_range": [1100, 1800],
+    "typical_lot_sqft": 5000,
+    "typical_beds": [2, 4],
+    "typical_year_built_range": [1910, 1940],
+    "transit_access": "Moderate — frequent bus on Lombard, Yellow Line MAX at Expo Center (edge of neighborhood), St. Johns Bridge connects to NW but limited cross-town options",
+    "walkability_score": 68,
+    "school_rating_avg": 5.0,
+    "crime_trend": "Stable — modest improvement, down 4% YoY",
+    "development_pipeline": "Cathedral Park neighborhood improvements, St. Johns town center streetscape work, some mixed-use infill on Lombard"
+  },
+  "investment_thesis": "Island neighborhood with strong identity and character. Cathedral Park and St. Johns Bridge provide genuine charm that drives buyer interest. Craftsman housing stock is ideal for high-return renovations — older homes with period details command premium after thoughtful rehab. Relative geographic isolation creates a micro-market with loyal buyers. Town center has good walkable retail. Best for investors who can source off-market deals through local relationships.",
+  "risk_factors": [
+    "Geographic isolation from rest of Portland — bridges and distance limit commute options",
+    "Flood zone concerns in lower areas near Columbia Slough",
+    "Industrial neighbors (Port of Portland, rail yards) impact some blocks",
+    "Limited transit — car-dependent for many destinations",
+    "Some legacy environmental contamination near industrial corridor"
+  ],
+  "data_sources": [
+    "Multnomah County Assessor (public records)",
+    "PortlandMaps.com",
+    "Synthetic MLS data based on market knowledge"
+  ],
+  "last_updated": "2026-04-07"
+}
