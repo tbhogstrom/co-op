@@ -1,7 +1,7 @@
 # Portland Housing Co-op — Project Board
 
-**Last updated:** 2026-04-08 (Day 2 — end of day)
-**Phase:** M1-M3 CLOSED, M4 ACTIVE, M5 CLOSING — membership docs ready for execution
+**Last updated:** 2026-04-15 (Week 2)
+**Phase:** M1-M3 CLOSED, M2 CLOSED, M4 ACTIVE, M5 CLOSING — founders' meeting Apr 29
 
 ---
 
@@ -10,9 +10,9 @@
 | # | Milestone | Status | Owner(s) | Dependencies | Notes |
 |---|-----------|--------|----------|--------------|-------|
 | M1 | Co-op Vision & Strategy | ✅ CLOSED | Maven, Ledger | — | All decisions made; Ledger sign-off received 2026-04-08 |
-| M2 | Legal Formation | ✅ CLOSING | Statton, Maven | M1 ✅ | OA amendments DONE (6/6 implemented). All M2 deliverables complete. Maven review: APPROVED. Pending: file Articles of Organization with OR SoS. |
-| M3 | Financial Foundation | ✅ CLOSING | Ledger, Maven | M1 ✅ | All financial models updated. PM rate standardized at 1.15x, clawback at 60 days, redemption at 120d/12mo. Min-cap analysis complete: $115K viable with guardrails. |
-| M4 | Member Recruitment | 🔄 ACTIVE | Calloway, Maven | M1 ✅ | 3 candidates vetted (Birch 87, Slate 84, Copper 97). Electrician search active (3 leads). Capitalization gap flagged ($115K projected vs $200K target). |
+| M2 | Legal Formation | ✅ CLOSED | Statton, Maven | M1 ✅ | CLOSED 2026-04-15. OA (6 amendments), Articles (filing-ready), Member Agreement, CCB checklist, tax memo, entity formation next-steps all complete. Ready to file. |
+| M3 | Financial Foundation | ✅ CLOSED | Ledger, Maven | M1 ✅ | CLOSED 2026-04-15. Ledger sign-off received. 14 deliverables complete. All cross-doc alignment verified. $115K viable with guardrails. |
+| M4 | Member Recruitment | 🔄 ACTIVE | Calloway, Maven | M1 ✅ | Week 2: Volt call 4/5 (ADVANCE — K&T specialist, Tier B $15K), Wren 3/5 (HOLD). Birch EPA renewal May 10. Slate confirmed Apr 29. Copper anchor. Founders' meeting agenda drafted. |
 | M5 | Membership Agreements | ✅ CLOSING | Statton, Ledger | M2 ✅, M3 ✅ | Core documents COMPLETE — Member Agreement v2 + Financial Exhibits (A-E). Maven reviewed, all terms verified. Ready for member execution at founders' meeting (Apr 29). |
 | M6 | First Property Search | BLOCKED | Reeves, Maven, Ledger | M2, M3 | Preliminary tools + data complete; waiting on entity formation + capitalization confirmation |
 | M7 | Property Acquisition | BLOCKED | Reeves, Ledger, Statton | M6 | Waiting on property search results |
@@ -25,11 +25,11 @@
 
 | Agent | Name | Role | Status |
 |-------|------|------|--------|
-| Maven | Founder | Orchestrator | ACTIVE — reviewed OA amendments (APPROVED), reviewed min-cap analysis. M5 unblocking in progress. |
-| Statton | Attorney | Legal Counsel | DELIVERED — OA amendments (6/6) + Member Agreement v2. M2 + M5 core docs complete. |
-| Reeves | Analyst | Real Estate | STANDBY — M6 preliminary tools + data complete; waiting on entity formation + cap confirmation |
-| Ledger | Accountant | CFO | DELIVERED — M3 updates complete + M5 Financial Exhibits (A-E). Min-cap analysis: $115K viable. |
-| Calloway | Recruiter | Member Outreach | ACTIVE — Electrician outreach prep, Slate terms summary, Week 2 planning. |
+| Maven | Founder | Orchestrator | ACTIVE — Closed M2 + M3. Reviewing M4 Week 2 reports. Entity filing next. |
+| Statton | Attorney | Legal Counsel | DELIVERED — M2 CLOSED (articles filing-ready + next-steps memo). Member Agreement v2 complete. |
+| Reeves | Analyst | Real Estate | STANDBY — M6 tools + data ready; waiting on entity filing + CCB license (8-10 weeks) |
+| Ledger | Accountant | CFO | DELIVERED — M3 CLOSED (sign-off received). Financial Exhibits complete. |
+| Calloway | Recruiter | Member Outreach | DELIVERED — Week 2 complete. Volt advancing, Wren on hold. All 3 candidates confirmed for Apr 29. |
 | Birch | Carpenter | Trades | IN VETTING — Conditional recommend (EPA RRP renewal needed) |
 | Slate | Roofer | Trades | IN VETTING — Recommend (wants to see OA + meet cohort) |
 | Copper | Plumber | Trades | IN VETTING — Strong recommend (97/100, anchor candidate) |
@@ -63,6 +63,12 @@
 | 2026-04-08 | Interview reports APPROVED: Birch (conditional), Slate (conditional), Copper (unconditional) | Maven | All three advance in vetting. Conditions: Birch EPA RRP by June 7, Slate review OA + meet cohort. |
 | 2026-04-08 | Founders' meeting GREENLIGHTED for April 29 | Maven | Maven, Birch, Slate, Copper attend. Calloway facilitates. Chemistry check + full transparency on terms. |
 | 2026-04-08 | M5 core documents COMPLETE — Member Agreement v2 + Financial Exhibits | Maven | Statton drafted agreement (13 sections, 5 exhibits), Ledger drafted financial schedules (5 exhibits). All terms verified against OA and M3 models. Ready for member execution. |
+| 2026-04-15 | M2 CLOSED — Legal Formation complete | Maven | All deliverables reviewed and approved. Filing-ready articles + 12-step entity formation memo delivered by Statton. Ready to file with OR SoS. |
+| 2026-04-15 | M3 CLOSED — Financial Foundation complete | Maven | Ledger sign-off received. 14 deliverables complete. All cross-document alignment verified (5 categories). $115K viable with guardrails. |
+| 2026-04-15 | Entity formation critical path: 8-10 weeks to construction-ready | Maven | Per Statton's next-steps memo. Articles → EIN → Insurance → CCB app → CCB license. ~$4.5K-$8.6K minimum to reach CCB-licensed status. |
+| 2026-04-15 | Volt: ADVANCE to formal vetting | Maven | 4/5 interest, 30+ K&T projects, EPA RRP current, self-selected Tier B $15K, zero red flags. Follow-up call week of Apr 21. |
+| 2026-04-15 | Wren: HOLD as backup electrician | Maven | 3/5 interest, thin K&T experience, EPA RRP lapsed. Strong in modern systems. Keep warm; advance if Volt does not convert. |
+| 2026-04-15 | Founders' meeting agenda APPROVED | Maven | April 29, 6-8:30 PM, Cully Community Room. Materials distributed by April 22. Corrected profit split in agenda (20/10/30/40). |
 
 ## Blockers
 
@@ -71,9 +77,10 @@
 | ~~Ledger sign-off on final M1 parameters~~ | ~~M1 closure~~ | Ledger | ✅ RESOLVED 2026-04-08 |
 | ~~OA amendments (6 items)~~ | ~~M2 closure, M5~~ | Statton | ✅ RESOLVED 2026-04-08 — All 6 amendments implemented, Maven reviewed and approved |
 | ~~Capitalization gap ($115K vs $200K)~~ | ~~M3, M6~~ | Ledger, Maven | ✅ RESOLVED 2026-04-08 — $115K viable with guardrails. First acquisition capped at $200K purchase. See min-cap analysis. |
-| Electrician recruitment | M4 closure, M8/M9 | Calloway | IN PROGRESS — 3 leads, outreach calls Week 2 (Apr 15) |
-| File Articles of Organization | M2 formal closure | Statton | NEW — OA finalized, articles ready, need to file with OR Secretary of State |
-| M5 unblocking | M5 (membership agreements) | Statton, Ledger | READY — M2/M3 substantively complete. Statton + Ledger can begin M5 drafting. |
+| Electrician recruitment | M4 closure, M8/M9 | Calloway | IN PROGRESS — Volt ADVANCING (4/5, follow-up call week of Apr 21). Wren on HOLD. Sparks awaiting intro. |
+| ~~File Articles of Organization~~ | ~~M2 formal closure~~ | Statton | ✅ RESOLVED 2026-04-15 — Filing-ready articles + next-steps memo complete. Maven to execute filing. |
+| ~~M5 unblocking~~ | ~~M5 (membership agreements)~~ | Statton, Ledger | ✅ RESOLVED 2026-04-08 — Member Agreement v2 + Financial Exhibits complete. |
+| Entity filing execution | M6 unblocking | Maven | NEW — File articles at sos.oregon.gov, obtain EIN, begin CCB licensing (8-10 week critical path) |
 
 ## Key Artifacts
 
@@ -102,6 +109,8 @@
 | **OA Review Notes (NEW)** | workspace/deliverables/m02-legal/oa-review-notes.md | Statton |
 | **OA Amendment Decisions (NEW)** | workspace/deliverables/m02-legal/oa-amendment-decisions.md | Maven |
 | **OA Amendments Log (NEW)** | workspace/deliverables/m02-legal/oa-amendments-log.md | Statton |
+| **Articles of Organization — Filing Ready (NEW)** | workspace/deliverables/m02-legal/articles-of-organization-filing.md | Statton |
+| **Entity Formation Next Steps (NEW)** | workspace/deliverables/m02-legal/entity-formation-next-steps.md | Statton |
 | CCB Licensing Requirements | workspace/deliverables/m02-legal/research/ccb-licensing-requirements.md | Statton |
 | Worker Classification Analysis | workspace/deliverables/m02-legal/research/worker-classification-analysis.md | Statton |
 
@@ -118,6 +127,7 @@
 | **OA Financial Cross-Check (NEW)** | workspace/deliverables/m03-financial/oa-financial-crosscheck.md | Ledger |
 | **Member Financial Guide (NEW)** | workspace/deliverables/m03-financial/member-financial-guide.md | Ledger |
 | **Minimum Capitalization Analysis (NEW)** | workspace/deliverables/m03-financial/minimum-capitalization-analysis.md | Ledger |
+| **M3 CFO Sign-Off (NEW)** | workspace/deliverables/m03-financial/m3-signoff-ledger.md | Ledger |
 
 ### M4 — Member Recruitment (ACTIVE)
 
@@ -144,6 +154,10 @@
 | **Electrician Outreach Script (NEW)** | workspace/deliverables/m04-recruitment/electrician-outreach-script.md | Calloway |
 | **Slate Terms Summary (NEW)** | workspace/deliverables/m04-recruitment/slate-terms-summary.md | Calloway |
 | **Maven Interview Approval (NEW)** | workspace/deliverables/m04-recruitment/maven-interview-approval.md | Maven |
+| **Outreach Report: Volt (NEW)** | workspace/deliverables/m04-recruitment/outreach-report-volt.md | Calloway |
+| **Outreach Report: Wren (NEW)** | workspace/deliverables/m04-recruitment/outreach-report-wren.md | Calloway |
+| **Week 2 Candidate Updates (NEW)** | workspace/deliverables/m04-recruitment/week2-candidate-updates.md | Calloway |
+| **Founders' Meeting Agenda (NEW)** | workspace/deliverables/m04-recruitment/founders-meeting-agenda.md | Calloway |
 
 ### M5 — Membership Agreements (IN PROGRESS)
 
