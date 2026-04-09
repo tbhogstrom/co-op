@@ -29,19 +29,21 @@ CAPITAL_PCT = 0.30
 LABOR_PCT = 0.40
 
 TRADE_MULTIPLIERS = {
-    "project_management": 1.15,
-    "general_labor": 1.0,
-    "painting": 1.0,
-    "carpentry": 1.2,
-    "framing": 1.2,
-    "roofing": 1.2,
-    "foundation": 1.2,   # concrete, hardscaping
-    "plumbing": 1.3,
-    "electrical": 1.3,
-    "hvac": 1.3,
-    "finish_work": 1.0,
-    "admin": 1.0,
+    # Per OA Exhibit B (Amendment #1) — approved trade rate multipliers
+    "project_management": 1.15,   # GC license, project oversight
+    "general_labor": 1.0,         # Non-specialized labor
+    "painting": 1.0,              # Painting / finishing / drywall
+    "carpentry": 1.2,             # Carpenter / framing — skilled trade
+    "roofing": 1.2,               # Roofing — skilled trade, hazard premium
+    "foundation": 1.2,            # Concrete, hardscaping — skilled trade
+    "plumbing": 1.3,              # Licensed plumber
+    "electrical": 1.3,            # Licensed electrician
+    "hvac": 1.3,                  # Licensed HVAC technician
+    "admin": 1.0,                 # Operations / admin (Maven, Ledger equiv.)
 }
+
+# Annual fixed overhead from business model ($58,355 approved)
+ANNUAL_OVERHEAD = 58_355
 
 
 # ============================================================================
@@ -72,14 +74,19 @@ class Member:
 
 
 def build_founding_members() -> List[Member]:
+    """
+    What-if scenario roster: 7 members with $207K total capital.
+    Includes two non-trade investors (Quinn, Devlin) providing significant capital,
+    plus a full trade crew covering PM, painting, foundation, plumbing, electrical.
+    """
     return [
-        Member("Harlan",   "General Contractor",        "project_management", 25_000),
-        Member("Bristow",  "Painter",                   "painting",           25_000),
-        Member("Quinn",    "Non-Trade Investor A",      "general_labor",      50_000),
-        Member("Masonry",  "Foundation/Concrete/Hardsc", "foundation",         15_000),
-        Member("Copper",   "Plumber",                   "plumbing",           12_000),
-        Member("Volt",     "Electrician",               "electrical",         20_000),
-        Member("Devlin",   "Non-Trade Investor B",      "general_labor",      60_000),
+        Member("Harlan",   "General Contractor",          "project_management", 25_000),
+        Member("Bristow",  "Painter",                     "painting",           25_000),
+        Member("Quinn",    "Non-Trade Investor A",        "general_labor",      50_000),
+        Member("Masonry",  "Foundation/Concrete/Hardsc",  "foundation",         15_000),
+        Member("Copper",   "Plumber",                     "plumbing",           12_000),
+        Member("Volt",     "Electrician",                 "electrical",         20_000),
+        Member("Devlin",   "Non-Trade Investor B",        "general_labor",      60_000),
     ]
 
 
@@ -114,24 +121,31 @@ class Deal:
 
     @property
     def carry_cost(self) -> float:
-        """Hard money interest + insurance + utilities + property tax."""
-        monthly_rate = 0.12 / 12  # 12% annual hard money
+        """Hard money interest + insurance + utilities + property tax.
+        Per capital-structure.md: hard money at 10.5-12% annual, 85% LTV."""
+        monthly_rate = 0.115 / 12  # 11.5% annual (midpoint of 10.5-12% range)
         loan_amount = self.purchase_price * 0.85  # 85% LTV
         interest = loan_amount * monthly_rate * self.holding_months
-        insurance = 150 * self.holding_months
-        utilities = 200 * self.holding_months
-        prop_tax = (self.purchase_price * 0.012) / 12 * self.holding_months
+        insurance = 175 * self.holding_months   # builder's risk insurance
+        utilities = 225 * self.holding_months   # Portland utilities (electric, water, gas)
+        prop_tax = (self.purchase_price * 0.0115) / 12 * self.holding_months  # Multnomah County
         return interest + insurance + utilities + prop_tax
 
     @property
     def acquisition_cost(self) -> float:
-        """Closing costs on purchase."""
-        return self.purchase_price * 0.02  # ~2% closing
+        """Closing costs on purchase: origination (2.5 pts) + title + inspection.
+        Per capital-structure.md: 2-3 points origination + title/inspection."""
+        origination = self.purchase_price * 0.85 * 0.025  # 2.5 points on loan amount
+        title_inspection = 3_500  # title insurance + general inspection + sewer scope
+        return origination + title_inspection
 
     @property
     def selling_cost(self) -> float:
-        """Agent commission + closing costs on sale."""
-        return self.actual_sale_price * 0.07  # 6% commission + 1% closing
+        """Per business-model.md: 3% buyer's agent + 3% seller's + closing/title/escrow."""
+        commission = self.actual_sale_price * 0.06   # 6% total commissions
+        closing = 2_500                                # closing costs / title / escrow
+        staging_photo = 3_000                          # professional staging + photography
+        return commission + closing + staging_photo
 
     @property
     def total_cost(self) -> float:
@@ -149,16 +163,17 @@ class Deal:
 
 NEIGHBORHOODS = [
     # (name, median_price_2026, annual_appreciation, distress_probability)
-    ("Lents",          320_000, 0.04, 0.15),
-    ("Cully",          340_000, 0.05, 0.12),
-    ("Parkrose",       290_000, 0.03, 0.18),
-    ("Foster-Powell",  380_000, 0.05, 0.08),
-    ("St. Johns",      360_000, 0.04, 0.10),
-    ("Montavilla",     400_000, 0.04, 0.07),
-    ("Woodstock",      420_000, 0.05, 0.06),
-    ("Kenton",         370_000, 0.04, 0.09),
-    ("Portsmouth",     310_000, 0.03, 0.14),
-    ("Brentwood-Darlington", 280_000, 0.03, 0.16),
+    # Medians from real Redfin comp data (data/comp-sales/*.json, 421 Portland comps)
+    # Appreciation rates: conservative 3-4% based on Portland metro trends
+    # Distress probability: likelihood of finding sub-65% ARV properties
+    ("Lents",          380_000, 0.035, 0.14),   # Real median $379,900, n=89
+    ("Cully",          390_000, 0.040, 0.11),   # Real median $389,900, n=64
+    ("Parkrose",       500_000, 0.030, 0.08),   # Real median $499,700, n=41 — pricier than expected
+    ("Foster-Powell",  455_000, 0.040, 0.06),   # Real median $455,000, n=41
+    ("St. Johns",      425_000, 0.035, 0.09),   # Real median $425,000, n=64
+    ("Montavilla",     412_000, 0.035, 0.07),   # Real median $411,500, n=90
+    ("Woodstock",      500_000, 0.040, 0.05),   # Real median $499,950, n=32
+    ("Brentwood-Darlington", 340_000, 0.030, 0.15),  # No comp data — estimated from Lents adjacency
 ]
 
 PORTLAND_STREETS = [
@@ -373,7 +388,7 @@ def generate_events(rng: random.Random, quarter: int, members: List[Member],
                 member_affected=affected.name,
             ))
         elif member_roll < 0.025:
-            # Member departure (not the GC or heavy investors)
+            # Member departure (not the GC or heavy investors — they're indispensable)
             eligible = [m for m in active_members
                        if m.capital_contribution <= 25_000 and m.role != "General Contractor"]
             if eligible:
@@ -404,25 +419,58 @@ def generate_events(rng: random.Random, quarter: int, members: List[Member],
 # ============================================================================
 
 def generate_deal(rng: random.Random, quarter: int, deal_num: int,
-                  market_adjustment: float) -> Deal:
-    """Generate a realistic Portland flip deal."""
-    hood_name, median, appreciation, _ = rng.choice(NEIGHBORHOODS)
+                  market_adjustment: float, is_first_deal: bool = False) -> Deal:
+    """
+    Generate a realistic Portland flip deal.
+
+    Per approved model:
+    - Purchase at <= 65% of ARV
+    - First deal constrained: max $200K purchase, max $55K rehab (Exhibit E-1)
+    - Target neighborhoods: Lents, Cully, Brentwood-Darlington for first deals
+    - Later deals can expand to higher price points as reserves grow
+    """
+    if is_first_deal:
+        # First acquisition: target affordable neighborhoods per Exhibit E-1
+        first_deal_hoods = [h for h in NEIGHBORHOODS if h[0] in
+                           ("Lents", "Cully", "Brentwood-Darlington")]
+        hood_name, median, appreciation, _ = rng.choice(first_deal_hoods)
+    else:
+        hood_name, median, appreciation, _ = rng.choice(NEIGHBORHOODS)
 
     # Apply market-wide adjustments and time-based appreciation
     years_in = quarter / 4
     time_adjusted_median = median * (1 + appreciation) ** years_in * (1 + market_adjustment)
 
-    # Distressed properties are 55-75% of median
-    discount = rng.uniform(0.55, 0.75)
+    # Distressed properties are 55-70% of median (business model says <= 65% of ARV)
+    discount = rng.uniform(0.52, 0.68)
     purchase_price = round(time_adjusted_median * discount / 1000) * 1000
 
+    # First deal cap: $200K purchase, $55K rehab (Exhibit E-1)
+    if is_first_deal:
+        purchase_price = min(purchase_price, 200_000)
+
     # Rehab budget: 15-30% of purchase price for cosmetic-plus
-    rehab_pct = rng.uniform(0.15, 0.30)
+    rehab_pct = rng.uniform(0.18, 0.32)
     rehab_budget = round(purchase_price * rehab_pct / 500) * 500
 
-    # ARV: time-adjusted median + some variance
-    arv_variance = rng.uniform(-0.05, 0.10)
+    if is_first_deal:
+        rehab_budget = min(rehab_budget, 55_000)
+
+    # ARV: time-adjusted median (what the house is worth after rehab)
+    arv_variance = rng.uniform(-0.05, 0.08)
     projected_arv = round(time_adjusted_median * (1 + arv_variance) / 1000) * 1000
+
+    # Verify deal pencils: ROI check (business model says >= 15% conservative)
+    est_total_cost = purchase_price + rehab_budget + purchase_price * 0.03 + projected_arv * 0.07
+    est_carry = purchase_price * 0.85 * 0.12 / 12 * 5  # ~5 month hold estimate
+    est_total = est_total_cost + est_carry
+    est_profit = projected_arv - est_total
+    est_roi = est_profit / (purchase_price + rehab_budget) if (purchase_price + rehab_budget) > 0 else 0
+
+    # Walk away if conservative ROI < 10% (sim is more lenient than 15% to generate deals)
+    if est_roi < 0.10:
+        # Try to make it work by lowering purchase offer
+        purchase_price = round(purchase_price * 0.90 / 1000) * 1000
 
     address = generate_address(rng)
 
@@ -445,38 +493,140 @@ def allocate_labor(deal: Deal, members: List[Member], rng: random.Random) -> Dic
     """
     Allocate labor hours to active members based on their trade and the deal's scope.
     Returns {member_name: hours}.
+
+    Realistic Portland rehab labor estimates (per Harlan's experience):
+
+    COSMETIC-PLUS ($35K-$55K rehab, 4-5 months):
+      - Demo/prep/cleanup:              80-120 hrs  (general labor, all hands)
+      - Carpentry (trim, doors, cabs):  100-160 hrs (Birch)
+      - Plumbing (fixture swap, minor): 40-65 hrs   (Copper)
+      - Electrical (devices, fixtures):  35-55 hrs   (Volt)
+      - Roofing (repair/partial):       20-45 hrs   (Slate, if needed — 50% of deals)
+      - Painting (prime+2 coats, ext):  100-160 hrs (subbed, members do prep ~40 hrs)
+      - Flooring (LVP/tile):           50-80 hrs   (carpenter + general)
+      - Kitchen/bath install:           50-80 hrs   (carpenter + plumber)
+      - Landscaping:                    15-35 hrs   (general labor)
+      - PM/coordination:               90-130 hrs  (Harlan — site visits, draws, inspections)
+      - Maven ops/admin:               30-50 hrs   (deal sourcing, draw admin, listing prep)
+      Total: 610-980 hrs (center ~780)
+
+    MAJOR REHAB ($55K-$85K rehab, 5-7 months):
+      - Demo:                           120-180 hrs
+      - Framing/structural:             100-180 hrs
+      - Plumbing (re-pipe + fixtures):  75-130 hrs
+      - Electrical (panel + rooms):     70-120 hrs
+      - Roofing (full reshingle):       60-100 hrs (80% of major rehabs)
+      - Drywall (subbed, members prep): 30-50 hrs member work
+      - Painting (subbed, members prep): 40-60 hrs member work
+      - Flooring:                       60-100 hrs
+      - Kitchen/bath gut rebuild:       80-130 hrs
+      - Landscaping:                    25-50 hrs
+      - PM:                             130-190 hrs
+      - Maven ops/admin:               40-65 hrs
+      Total: 830-1,355 hrs (center ~1,080)
     """
     active = [m for m in members if m.active]
     hours = {}
 
-    # Base hours scale with rehab budget (~1 hour per $100-$150 of rehab)
-    total_labor_hours = deal.actual_rehab_cost / rng.uniform(100, 150)
+    # Determine project scope tier based on rehab cost
+    rehab = deal.actual_rehab_cost
+    if rehab < 55_000:
+        scope = "cosmetic"
+    elif rehab < 85_000:
+        scope = "major"
+    else:
+        scope = "gut"
+
+    # Has significant foundation/concrete scope? ~30% cosmetic, ~55% major, ~75% gut
+    needs_foundation = rng.random() < (0.30 if scope == "cosmetic" else
+                                       0.55 if scope == "major" else 0.75)
 
     for m in active:
         if m.trade == "project_management":
-            # GC does PM + some hands-on
-            h = total_labor_hours * rng.uniform(0.12, 0.18)
-        elif m.trade in ("plumbing", "electrical"):
-            # Specialists: focused bursts
-            h = total_labor_hours * rng.uniform(0.08, 0.14)
-        elif m.trade == "foundation":
-            # Foundation/concrete: depends on deal (some deals need a lot, some minimal)
-            if rng.random() < 0.4:  # 40% of deals have significant foundation work
-                h = total_labor_hours * rng.uniform(0.10, 0.18)
+            # Harlan: on-site 3-4 days/week during active rehab
+            # PM, scheduling, inspections, draw management, some hands-on
+            if scope == "cosmetic":
+                h = rng.uniform(90, 135)
+            elif scope == "major":
+                h = rng.uniform(130, 195)
             else:
-                h = total_labor_hours * rng.uniform(0.03, 0.06)
+                h = rng.uniform(170, 250)
+
         elif m.trade == "painting":
-            # Painter: consistent across deals
-            h = total_labor_hours * rng.uniform(0.10, 0.16)
-        elif m.trade == "general_labor":
-            # Non-trade members: demo, cleanup, hauling, light assist
-            if m.capital_contribution >= 50_000:
-                # Higher investor, less time on site
-                h = total_labor_hours * rng.uniform(0.02, 0.06)
+            # Bristow: interior/exterior painting, drywall prep, finish work
+            # Painter is on every deal and puts in serious hours — this is their trade
+            if scope == "cosmetic":
+                h = rng.uniform(110, 175)   # prime + 2 coats interior, exterior touch
+            elif scope == "major":
+                h = rng.uniform(145, 220)   # full interior + exterior repaint
             else:
-                h = total_labor_hours * rng.uniform(0.04, 0.08)
+                h = rng.uniform(180, 280)   # everything from scratch after drywall
+
+        elif m.trade == "foundation":
+            # Masonry: concrete, hardscaping, foundation repair, flatwork
+            # Not every deal needs significant foundation work
+            if needs_foundation:
+                if scope == "cosmetic":
+                    h = rng.uniform(45, 85)     # porch/step repair, walkway, minor crack
+                elif scope == "major":
+                    h = rng.uniform(80, 150)    # foundation repair, new flatwork, retaining
+                else:
+                    h = rng.uniform(120, 210)   # major structural foundation + hardscape
+            else:
+                # Minimal foundation scope — Masonry does general skilled labor instead
+                h = rng.uniform(25, 55)         # demo assist, hauling, light concrete
+
+        elif m.trade == "plumbing":
+            # Copper: fixture swap, rough-in, re-pipe on major/gut
+            if scope == "cosmetic":
+                h = rng.uniform(38, 68)
+            elif scope == "major":
+                h = rng.uniform(75, 135)
+            else:
+                h = rng.uniform(110, 180)
+
+        elif m.trade == "electrical":
+            # Volt: devices, fixtures, panel work, rewire on major/gut
+            if scope == "cosmetic":
+                h = rng.uniform(33, 58)
+            elif scope == "major":
+                h = rng.uniform(68, 125)
+            else:
+                h = rng.uniform(100, 170)
+
+        elif m.trade == "general_labor":
+            # Quinn / Devlin: non-trade investors doing demo, cleanup, hauling, light assist
+            # Higher-capital investors (Quinn $50K, Devlin $60K) typically put in fewer
+            # site hours — they contribute capital, not full-time labor
+            if m.capital_contribution >= 50_000:
+                # High-capital investor: contributes some sweat equity but not full-time
+                if scope == "cosmetic":
+                    h = rng.uniform(18, 42)
+                elif scope == "major":
+                    h = rng.uniform(28, 58)
+                else:
+                    h = rng.uniform(35, 72)
+            else:
+                # Lower-capital general laborer: more hours on site
+                if scope == "cosmetic":
+                    h = rng.uniform(35, 70)
+                elif scope == "major":
+                    h = rng.uniform(55, 100)
+                else:
+                    h = rng.uniform(70, 130)
+
+        elif m.trade == "admin":
+            # Ops/admin: deal sourcing, draw administration, listing prep
+            if scope == "cosmetic":
+                h = rng.uniform(28, 52)
+            elif scope == "major":
+                h = rng.uniform(42, 68)
+            else:
+                h = rng.uniform(55, 85)
+
         else:
-            h = total_labor_hours * rng.uniform(0.05, 0.10)
+            # Catch-all for any other trade
+            h = rng.uniform(20, 50)
 
         hours[m.name] = round(h, 1)
 
@@ -525,6 +675,11 @@ def run_simulation(seed: int = 2026, quiet: bool = False) -> List[QuarterReport]
         ("Niles",   "Non-Trade Investor",  "general_labor", 35_000),
     ]
 
+    # Locked reserves per Exhibit E-2 ($23,600 minimum before first acquisition)
+    LOCKED_RESERVE_MIN = 23_600
+    # Per business model: never deploy > 70% of co-op cash on single project
+    MAX_DEPLOY_PCT = 0.70
+
     total_capital = sum(m.capital_contribution for m in members)
 
     if not quiet:
@@ -567,23 +722,46 @@ def run_simulation(seed: int = 2026, quiet: bool = False) -> List[QuarterReport]
             print(f"{'━'*100}")
 
         # ── Generate new deals ──
-        # Ramp up: Y1=1-2 deals/yr, Y2=2-3, Y3-5=3-4
+        # Year 1: formation + recruitment takes Q1-Q2, first deal Q3 earliest
+        # Year 1: 1 flip (conservative per business model)
+        # Year 2: 2 flips (moderate scaling)
+        # Year 3+: 2-3 flips (requires reserves + track record)
         if year == 1:
-            deals_per_q = 0.4  # ~1.6/year
+            if q_in_year <= 2:
+                deals_per_q = 0.0  # No deals Q1-Q2 (formation, recruitment, capitalization)
+            else:
+                deals_per_q = 0.5  # First deal Q3 or Q4
         elif year == 2:
-            deals_per_q = 0.6  # ~2.4/year
+            deals_per_q = 0.55  # ~2.2/year
         elif year <= 4:
-            deals_per_q = 0.8  # ~3.2/year
+            deals_per_q = 0.65  # ~2.6/year
         else:
-            deals_per_q = 1.0  # ~4/year
+            deals_per_q = 0.75  # ~3/year
 
-        # Check if co-op has enough capital for a new deal
-        available_cash = total_capital + total_reserves * 0.5  # can deploy half reserves
-        min_deal_cash = 30_000  # minimum down payment + initial rehab
+        # Cash availability check per approved guardrails:
+        # - Must maintain $23,600 locked reserves before any acquisition
+        # - Never deploy > 70% of co-op cash on a single project
+        # - No parallel projects until reserves hit $40K (Year 1 rule)
+        deployable_reserves = max(0, total_reserves - LOCKED_RESERVE_MIN)
+        available_cash = total_capital * MAX_DEPLOY_PCT + deployable_reserves * 0.5
+
+        # Minimum cash for a deal: 15% down on ~$200K + rehab gap + closing
+        min_deal_cash = 45_000
+
+        # Year 1: no second project until first project's cash is recovered
+        if year == 1 and len(deals_in_progress) > 0:
+            deals_per_q = 0.0
+
+        # Parallel project restriction: need $40K+ reserves
+        if len(deals_in_progress) > 0 and total_reserves < 40_000:
+            deals_per_q = 0.0
+
+        is_first_deal = (deal_counter == 0)
 
         if rng.random() < deals_per_q and available_cash > min_deal_cash:
             deal_counter += 1
-            new_deal = generate_deal(rng, q, deal_counter, market_adjustment)
+            new_deal = generate_deal(rng, q, deal_counter, market_adjustment,
+                                    is_first_deal=is_first_deal)
 
             # Determine holding period
             new_deal.holding_months = rng.randint(3, 6)
